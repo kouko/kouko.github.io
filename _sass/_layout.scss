@@ -207,7 +207,7 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 1.2em;
 }
 
 
@@ -265,8 +265,6 @@
 .post-title {
     font-size: 42px;
     padding-top: $spacing-unit ;
-    letter-spacing: -1px;
-    line-height: 1;
     @include media-query($on-laptop) {
         font-size: 36px;
     }

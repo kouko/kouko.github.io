@@ -30,6 +30,7 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    letter-spacing: 0.02em;
 }
 
 
@@ -37,10 +38,15 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
+ /**
+  * Headings
+  */
 
  h1, h2, h3, h4, h5, h6 {
    margin-top: 2em;
-   margin-bottom: 0.5em;
+   margin-bottom: $spacing-unit / 8;
+   line-height: $header-line-height;
+   font-weight: $header-font-weight;
  }
 
 p, hr, blockquote, pre,
@@ -107,14 +113,6 @@ li {
 
 
 
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
-}
-
-
 
 /**
  * Links
@@ -142,8 +140,7 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
+    font-size: $blockquote-font-size;
     font-style: italic;
 
     > :last-child {

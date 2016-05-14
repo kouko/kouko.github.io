@@ -80,4 +80,4 @@ categories:
 >
 > Amazon認為不重要，可以直接顯示在網路上的那四碼，正是Apple認為夠安全，足以驗證身份的那四碼。 
 
-via [How a Hacker Gained Access to a Reporter&#8217;s iCloud Account &#8211; Mac Rumors](http://www.macrumors.com/2012/08/06/how-a-hacker-gained-access-to-a-reporters-icloud-account/) and [How Apple and Amazon Security Flaws Led to My Epic Hacking | Gadget Lab | Wired.com](http://www.wired.com/gadgetlab/2012/08/apple-amazon-mat-honan-hacking/)
+via [How a Hacker Gained Access to a Reporter&#8217;s iCloud Account &#8211; Mac Rumors](http://www.macrumors.com/2012/08/06/how-a-hacker-gained-access-to-a-reporters-icloud-account/) and [How Apple and Amazon Security Flaws Led to My Epic Hacking Gadget Lab Wired.com](http://www.wired.com/gadgetlab/2012/08/apple-amazon-mat-honan-hacking/)

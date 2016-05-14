@@ -18,7 +18,7 @@ twitter_username: kouko_d
 github_username:  kouko
 
 # Pagenation
-paginate: 9
+paginate: 12
 paginate_path: /post/page:num  # Setting Post Pagenation URL
 
 # Build settings
