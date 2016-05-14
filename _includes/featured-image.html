@@ -16,7 +16,7 @@
 			{% endif %}
 			{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
 			{% endif %}
-			{% for category in page.categories %} • <a href="{{ site.jekyll-archives.permalinks.category | replace:':name/','' }}{{ category | replace: ' ', '-' }}">{{ category }}</a>
+			{% for category in page.categories %} • <a href="{{ site.jekyll-archives.permalinks.category | replace:':name/','' }}{{ category | downcase | replace: ' ', '-' }}">{{ category }}</a>
 			{% endfor %}
 	</p>
 </header>

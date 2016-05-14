@@ -32,7 +32,7 @@
                 <ul class="site-categories-list">
                     {% for category in site.categories %}
                     <li>
-                        <a href="{{ site.jekyll-archives.permalinks.category | replace:':name/','' }}{{ category[0] | replace: ' ', '-' }}">{{ category[0] }}</a>
+                        <a href="{{ site.jekyll-archives.permalinks.category | replace:':name/','' }}{{ category[0] | downcase | replace: ' ', '-' }}">{{ category[0] }}</a>
                     </li>
                     {% endfor %}
                 </ul>

@@ -11,7 +11,7 @@ layout: default
       </h2>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
           {% for category in post.categories %}
-              , <a href="{{ site.jekyll-archives.permalinks.category | replace:':name/','' }}{{ category | replace: ' ', '-' }}">{{ category }}</a>
+              , <a href="{{ site.jekyll-archives.permalinks.category | replace:':name/','' }}{{ category | downcase | replace: ' ', '-' }}">{{ category }}</a>
           {% endfor %}
       </span>
         </li>
