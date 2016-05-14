@@ -17,7 +17,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.8 "PingFang TC Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/1.8 "SourceHanSans", "HiraginoSans", "PingFang TC Light", "Yu Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -25,14 +25,20 @@ body {
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal; }
+  font-kerning: normal;
+  letter-spacing: 0.02em; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
+/**
+ * Headings
+ */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 2em;
-  margin-bottom: 0.5em; }
+  margin-bottom: 4px;
+  line-height: 1.4;
+  font-weight: 200; }
 
 p, hr, blockquote, pre,
 ul, ol, dl, figure,
@@ -81,12 +87,6 @@ li > ol {
   margin-bottom: 0; }
 
 /**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
-
-/**
  * Links
  */
 a {
@@ -105,8 +105,7 @@ blockquote {
   color: #828282;
   border-left: 4px solid #e8e8e8;
   padding-left: 16px;
-  font-size: 18px;
-  letter-spacing: -1px;
+  font-size: 17.6px;
   font-style: italic; }
   blockquote > :last-child {
     margin-bottom: 0; }
@@ -313,7 +312,7 @@ pre {
 
 .post-link {
   display: block;
-  font-size: 24px; }
+  font-size: 1.2em; }
 
 /**
  * Posts
@@ -350,9 +349,7 @@ pre {
 
 .post-title {
   font-size: 42px;
-  padding-top: 32px;
-  letter-spacing: -1px;
-  line-height: 1; }
+  padding-top: 32px; }
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
