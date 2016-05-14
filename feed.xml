@@ -1,30 +1,1197 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>白蘋果急救室 2.0</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 14 May 2016 22:10:27 +0800</pubDate>
+    <lastBuildDate>Sat, 14 May 2016 22:10:27 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.3</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 02 May 2016 19:27:32 +0800</pubDate>
+        <link>/post/2016/05/welcome-to-jekyll</link>
+        <guid isPermaLink="true">/post/2016/05/welcome-to-jekyll</guid>
+        
+        
+        <category>jekyll update</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>[開箱] iPad mini。</title>
+        <description>&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2290.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2290.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2290&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;今年可以算是Apple非常熱鬧的一年，除了一車庫的負面消息之外，當然最大的亮點還是這款一點創意也沒有，只不過是把iPad給變小的玩意——iPad mini。無論廣大媒體對iPad mini的評價是如何， 總之，開箱吧⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2109a.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2109a.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2109a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;盒子，當然不是從螢幕上掉出來的，是特定請人到美國排隊買，然後FedEX飛回來的（感恩）。雖然從照片裡看起來好像很大，不過實際上盒子非常、非常小⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2118.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2118.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2118&quot; height=&quot;&quot; /&gt;&lt;br /&gt;
+盒子側邊寫著iPad mini，m是小寫，嗯⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2120.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2120.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2120&quot; /&gt;&lt;br /&gt;
+盒子的另一個側邊，按照慣例是銀色的水果標誌。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2116.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2116.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2116&quot; /&gt;&lt;br /&gt;
+盒子背面，標明著這是32GB的版本。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2124.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2124.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2124&quot; /&gt;&lt;br /&gt;
+開箱！不過說實在沒啥讓人驚訝的點，因為包裝就跟iPad一樣咩⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2134.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2134.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2134&quot; /&gt;&lt;br /&gt;
+拿起iPad mini，下面依然是慣例的配件。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2139.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2139.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2139&quot; height=&quot;&quot; /&gt;&lt;br /&gt;
+除了簡單的說明書之外，配件就是Lightning線一條＋USB充電器一個。 &lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2140.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2140.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2140&quot; height=&quot;&quot; /&gt;&lt;br /&gt;
+變壓器，就跟目前Apple隨附的USB變壓器一樣。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2142.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2142.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2142&quot; /&gt;&lt;br /&gt;
+變壓器上注明規格是5V,1A。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2143.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2143.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2143&quot; height=&quot;&quot; /&gt;&lt;br /&gt;
+目前頗稀有的玩意——Lightning傳輸線，未來十年可能都要靠它了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2148.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2148.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2148&quot; /&gt;&lt;br /&gt;
+前面扯了哪麼久，最重要的當然還是iPad mini本體啦～&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2158.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2158.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2158&quot; /&gt;&lt;br /&gt;
+側邊倒角，跟iPad比斜面稍微大一點，也比較利一點。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2153.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2153.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2153&quot; /&gt; &lt;br /&gt;
+圓角的弧度其實跟iPad比差不多。  &lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2150.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2150.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2150&quot; /&gt;&lt;br /&gt;
+Home鍵設計還是跟以前一樣。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2152.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2152.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2152&quot; /&gt;&lt;br /&gt;
+正面FaceTime相機，還有相機旁邊隱約可見的光感應器。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2232.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2232.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2232&quot; /&gt;&lt;br /&gt;
+背面，雖然說是黑色，不過其實是稍稍偏藍的黑。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2166.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2166.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2166&quot; /&gt;&lt;br /&gt;
+背面相機 ，外觀看起來就蠻威的，不過好像容易被刮到的感覺⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2162.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2162.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2162&quot; /&gt;&lt;br /&gt;
+側邊按鈕，基本上與iPad一樣有個鎖定撥鈕與音量控制，不過音量控制是分開成兩個按鍵的設計。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2177.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2177.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2177&quot; /&gt;&lt;br /&gt;
+機身頂上的休眠/電源按鍵。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2179.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2179.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2179&quot; /&gt;&lt;br /&gt;
+耳機孔。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2180.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2180.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2180&quot; /&gt;&lt;br /&gt;
+麥克風，在機身頂部的中央。 &lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2171.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2171.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2171&quot; /&gt;&lt;br /&gt;
+背面的水果標誌，不同於金屬背面的霧面處理，這部分是亮面的。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2169.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2169.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2169&quot; /&gt;&lt;br /&gt;
+背面的「iPad」字樣，一樣是亮面的，不過「mini」沒一起刻上去。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2183.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2183.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2183&quot; /&gt;&lt;br /&gt;
+外觀部分差不多就是這樣，剩下的就是開機了⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2189.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2189.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2189&quot; /&gt;&lt;br /&gt;
+出廠的時候電池就已經幾乎充飽，等於是打開就可以開始一路用，溫馨。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2190.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2190.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2190&quot; /&gt;&lt;br /&gt;
+一開始的設定就跟iPad一樣，反正就是先選語系⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2193.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2193.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2193&quot; /&gt;&lt;br /&gt;
+選一下網路⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2201.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2201.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2201&quot; /&gt;&lt;br /&gt;
+之後以選擇要從頭開始設定，或是直接用iCloud上的備份。因為我很懶，所以就直接用iCloud上的備份把我iPad 2上的所有東西直接還魂到iPad mini上了⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2209.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2209.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2209&quot; /&gt;&lt;br /&gt;
+選擇從備份復原之後，就是等待⋯⋯差不多十分鐘吧？&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2258.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2258.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2258&quot; /&gt;&lt;br /&gt;
+之後等iOS自動重開機一下，一台活跳跳的iPad mini就準備上路啦～&lt;/p&gt;
+
+&lt;p&gt;好吧，其實這開箱真的還蠻無聊的。一來其實各家媒體早就已經開過了，二來就算沒看過iPad mini開箱的人，大概也會覺得這個開箱就跟開一般iPad一樣。實際開起來⋯⋯其實也真的沒啥差別。接下來就來講一些實際用起來的感覺好了 ⋯⋯&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;很輕、很輕、非常輕。&lt;/h3&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2290.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2290.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2290&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;或許許多人都覺得iPad mini賣的是方便攜帶的小體積，不過只要一拿過就會發現，其實與iPad真正的差異除了體積之外，更重要的是在「重量」。&lt;/p&gt;
+
+&lt;p&gt;iPad 3重量其實有點重，就算是比較輕的iPad 2，拿久了其實還是有點吃力，加上整體體積比較大，由於力矩效應的關係手拿起來感覺往往會比實際更重。不過iPad mini一來體積小，二來重量已經輕到讓人覺得機身裡面似乎根本沒有東西，因此拿起來真的很輕鬆、很輕鬆。&lt;/p&gt;
+
+&lt;p&gt;不過也因為太輕了，老實說拿起來反到有那麼一點點恐怖⋯⋯&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;邊框是比較窄，不過⋯⋯&lt;/h3&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2210.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2210.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2210&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在iPad mini還沒正式發表之前，就有許多人懷疑側邊框收窄的設計有可能會干擾到操作，讓觸控手勢發生誤判的狀況。這問題如果發生在iPad上，似乎的確如此。畢竟以iPad的重量來說，單手拿著其實就已經有點吃力，為了確實握好機身，大家自然而然地就會將拇指壓在螢幕正面上，這也是iPad當初之所以會有寬邊框設計的原因之一。&lt;/p&gt;
+
+&lt;p&gt;不過iPad mini的重量非常輕，加上機身本來就很小的緣故，就算在單手拿的時候拇指也只需要用側邊輕輕地「夾」著機身即可。實際在使用的時候，其實也不會擋到螢幕的操作。當然有些人手比較大，也許拇指會壓到螢幕邊緣，不過Apple那防誤觸的軟體判定功能似乎還蠻管用的，至少在內建軟體上運作的很不錯。&lt;/p&gt;
+
+&lt;p&gt;不過各種不同軟體的觸控判定方法不同，也是會發生防誤觸功能不靈的狀況就是了。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;螢幕變小，操作性不變⋯⋯或是更好？&lt;/h3&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2293.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2293.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2293&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;另一個許多人可能會有點懷疑的部分，就是螢幕尺寸是不是會影響現有iPad軟體的操作性。雖然我在還沒有拿到手之前也有一點疑慮，不過看起來似乎是不用擔心的。至少以基本觸控手勢（點擊、拖曳、雙指縮放⋯⋯）設計的軟體，只要在iPad上用起來沒問題，在iPad mini上用起來也照樣很順。&lt;/p&gt;
+
+&lt;p&gt;最大的實證，就是由我本人設計的第一個iPad軟體UI，就這樣直接放在iPad mini上居然也能夠順順地用（果然官方的Guideline是有用的啊～）。順道一說，這玩意是POS，如果您想開餐廳的話⋯⋯&lt;/p&gt;
+
+&lt;p&gt;另外，有些時候因為螢幕變小，相同的操作手指移動的距離變短，用起來反而更輕鬆了⋯⋯ &lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;鍵盤很好打。&lt;/h3&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2205.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2205.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2205&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;iPad的鍵盤只要習慣之後，其實也是可以快速地打字。不過在雙手拿著打字時，無論直橫手指都很難碰到畫面中央。雖然有分離鍵盤可以用，不過對於還是要看著鍵盤打字的人來說，分離鍵盤其實也不會讓效率提高多少⋯⋯&lt;/p&gt;
+
+&lt;p&gt;不過iPad mini，雖然說在橫著使用的時候手指還是搆不到畫面中央，不過至少在雙手手持直立使用的時候，手指可以很自然地按到鍵盤中央的按鍵。只要在稍微調整一下鍵盤的高度位置，就可以非常輕鬆地打字。&lt;/p&gt;
+
+&lt;p&gt;單以軟體鍵盤來說，也許iPad mini相對於iPad或是iPhone來說，是最適合的尺寸也說不定。&lt;/p&gt;
+
+&lt;h3 id=&quot;retinaretina&quot;&gt;雖然不是Retina，不過也蠻Retina的了⋯⋯&lt;/h3&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2263.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2263.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2263&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;自從Apple喊出Retina Display這個名號之後，似乎只要沒搭載超高解析度面板都算是一種罪。當然就如大家所知道的，iPad mini的螢幕是1024×768，無論是用哪種方法算都不算是Retina等級的螢幕。不過我個人覺得⋯⋯其實也很夠Retina了啦⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2259.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2259.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2259&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2260.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2260.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2260&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;由於螢幕尺寸小了一圈，比起解析度相同的iPad 2來說，iPad mini的螢幕畫面已經精細許多。當然如果貼近螢幕仔細看的話，還是可以發現那不是很圓滑的弧角、邊緣沒那麼銳利的字體。但是乍看之下，其實也非常精細了。&lt;/p&gt;
+
+&lt;p&gt;當然如果非得要字體一筆一畫銳利到不行，那還是請移駕iPad 4吧。&lt;/p&gt;
+
+&lt;h3 id=&quot;ipad-miniipad&quot;&gt;請不要把iPad mini的螢幕當成iPad那樣玩⋯⋯&lt;/h3&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2102.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2102.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2102&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;如果您是iPad 2/3/4的使用者，大概已經很習慣那耐操到不行的螢幕玻璃面板。無論怎樣完它，只要稍微擦一擦，馬上就會變成跟剛買來的一樣。不過這種好康，並不會發生在iPad mini上。&lt;/p&gt;
+
+&lt;p&gt;並不是說iPad mini的螢幕很不耐操，實際上一般使用的時候（應該）還是OK的，不過它的確也沒那麼強壯，所以請不要拿iPad mini去跟鑰匙對幹，或是拿螢幕去跟桌面玩親親。至於側邊框掉漆的問題，因為我還沒有掉，所以就不多說了。&lt;/p&gt;
+
+&lt;p&gt;不過老實說，我想我還是會姑且先上個螢幕保護貼再說。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;很輕很小很好，不過如果能更實質剛健一點的話⋯⋯&lt;/h3&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2283.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2283.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2283&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;iPad mini因為很輕很小，比起比較大的iPad來說能應用的場合更多，感覺上遭遇意外的機率（跌打損傷之類的意外）好像也更高。個人是希望iPad mini能夠比iPad要來得更耐刮，至少也要有iPad 2的水準吧？&lt;/p&gt;
+
+&lt;p&gt;不過依照開箱不到10分鐘就已經被刮爆的經驗，至少螢幕向下放在桌面上這檔事是做不得的。而背殼的部分似乎比較耐，應該還在可以隨便用的水準（不過我自己是不太在意背面被刮啦），主要還是螢幕玻璃的部分。&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;smart-cover-for-ipad-mini&quot;&gt;順道一提，如果忘了買Smart Cover for iPad mini的話⋯⋯&lt;/h3&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2105.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2105.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2105&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;雖然說這有點怪，不過如果手邊沒有iPad mini用的Smart Cover的話，其實iPad的Smart Cover也是可以用在iPad mini上的。雖然尺寸不合，不過至少當成立架還蠻合用的。當然因為尺寸差異的關係，就別指望還能有螢幕自動關閉的功能就是。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;iPad-mini-unbox-review-2012_IGP2246.jpg&quot; src=&quot;/img/2012-11-07-ipad-mini-2012-unbox-and-review/iPad-mini-unbox-review-2012_IGP2246.jpg&quot; alt=&quot;IPad mini unbox review 2012 IGP2246&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;總之這次開箱到這邊結束。如果要幫iPad mini打個分數的話，主要的扣分大概還是在那瞬間被刮爆的螢幕上。&lt;/p&gt;
+
+&lt;p&gt;如果iPad 2的分數有95分的話，那iPad mini大概有個80分吧？  &lt;/p&gt;
+</description>
+        <pubDate>Wed, 07 Nov 2012 19:51:10 +0800</pubDate>
+        <link>/post/2012/11/ipad-mini-2012-unbox-and-review</link>
+        <guid isPermaLink="true">/post/2012/11/ipad-mini-2012-unbox-and-review</guid>
+        
+        
+        <category>Article</category>
+        
+        <category>iPad mini</category>
+        
+      </item>
+    
+      <item>
+        <title>Steve Jobs的iPod裡有⋯⋯宇多田ヒカル？</title>
+        <description>&lt;div style=&quot;height: 300px; overflow: hidden; margin-bottom: 10px;&quot;&gt;
+  &lt;img style=&quot;margin-top: -80px;&quot; title=&quot;Steve Jobs 2001 ipod release.png&quot; src=&quot;/img/2012-10-31-utadahikaru-in-steve-jobs-ipod/Steve-Jobs-2001-ipod-release.png&quot; alt=&quot;Steve Jobs 2001 ipod release&quot; height=&quot;&quot; border=&quot;0&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Steve Jobs喜歡日本這件事是出了名的，當然許多人也許也會想到，他老人家的iPod裡應該也有幾首日文歌吧？沒想到還真的有人無聊去挖了一下，居然還真的挖到了⋯⋯&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;最近在Twitter上，有人從allaboutSteveJobs.com的影片中挖到了一段影片，影片中Steve Jobs拿著的iPod裡面塞了幾個日本歌手的音樂，其中最顯眼的一位就是——宇多田ヒカル。&lt;/p&gt;
+
+&lt;p&gt;總之，宇多田ヒカル本人的反應是⋯⋯&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;ja&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;わー！ほんとだぁ〜！しかしよく気付きましたね笑　RT @HelloTakafumi: スティーブ・ジョブズのiPodに宇多田ヒカルが入ってるのに気づいた！この動画の0:31を見てほしい！&lt;a href=&quot;http://t.co/282I18tX&quot;&gt;http://t.co/282I18tX&lt;/a&gt;&lt;/p&gt;&amp;mdash; 宇多田ヒカル (@utadahikaru) &lt;a href=&quot;https://twitter.com/utadahikaru/status/263069780427292673&quot;&gt;2012年10月30日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;わー！ほんとだぁ〜！しかしよく気付きましたね笑&lt;/p&gt;
+
+  &lt;p&gt;哇－！真的耶～！不過真虧有人能注意到啊（笑&lt;/p&gt;
+
+  &lt;p style=&quot;text-align: right;&quot;&gt;
+  @utadahikaru
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;影片的原始出處，是在2001年10月Steve Jobs發表初代iPod的時候。而除了宇多田ヒカル的「蹴っ飛ばせ!」與「サングラス」之外，還有サザンオールスターズ的「忘れられたBIG WAVE」，MISIA的「アツイナミダ」等日本歌手音樂。不過，實際在發表會中被播放的只有サザンオールスターズ的「忘れられたBIG WAVE」這首。&lt;/p&gt;
+
+&lt;div style=&quot;height: 300px; overflow: hidden; margin-bottom: 10px;&quot;&gt;
+  &lt;img title=&quot;Steve Jobs 2001 ipod release2.png&quot; src=&quot;/img/2012-10-31-utadahikaru-in-steve-jobs-ipod/Steve-Jobs-2001-ipod-release2.png&quot; alt=&quot;Steve Jobs 2001 ipod release2&quot; height=&quot;&quot; border=&quot;0&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+  當時iPod裡的日文歌有這些⋯⋯
+&lt;/p&gt;
+
+&lt;div style=&quot;height: 300px; overflow: hidden; margin-bottom: 10px;&quot;&gt;
+  &lt;img title=&quot;Steve Jobs 2001 ipod release3.png&quot; src=&quot;/img/2012-10-31-utadahikaru-in-steve-jobs-ipod/Steve-Jobs-2001-ipod-release3.png&quot; alt=&quot;Steve Jobs 2001 ipod release3&quot; height=&quot;&quot; border=&quot;0&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+  唯一在發表會裡被拿來放的⋯⋯不是宇多田（笑）
+&lt;/p&gt;
+
+&lt;p&gt;雖然這件事讓許多日本鄉民鬧得很ＨＩ，不過會在Demo的iPod裡塞日文歌曲，也許真的只是單純要秀一下iPod可以顯示漢字吧⋯⋯（當時現場也有日本記者在）&lt;/p&gt;
+
+&lt;p&gt;via &lt;a href=&quot;http://www.rbbtoday.com/article/2012/10/30/96885.html&quot;&gt;故スティーブ・ジョブズ氏のiPodに「宇多田ヒカル」が！　本人もビックリ「わー！ほんとだぁ～！」  RBB TODAY&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 Oct 2012 20:43:12 +0800</pubDate>
+        <link>/post/2012/10/utadahikaru-in-steve-jobs-ipod</link>
+        <guid isPermaLink="true">/post/2012/10/utadahikaru-in-steve-jobs-ipod</guid>
+        
+        
+        <category>Apple Rumors</category>
+        
+        <category>iPod classic</category>
+        
+        <category>Steve Jobs</category>
+        
+      </item>
+    
+      <item>
+        <title>[開箱] 遲到遲很大的終極iPhone底座「ELEVATION Dock」。</title>
+        <description>&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 1978&quot; height=&quot;&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-1978.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-1978.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;如果大家還記得的話，在N個月前Kickstarter的第一個（應該）破百萬美金的集資，就是號稱最最簡單，也最完美的iPhone底座「&lt;a href=&quot;http://elevationlab.com&quot;&gt;ELEVATION Dock&lt;/a&gt;」。這款底座靠的不是啥特殊功能，也不是絢麗的外形，就只是「重」而已。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;靠著由單一鋁塊切割而成的ELEVATION Dock，單單用重量就解決了許多Dock在拿起iPhone時的不方便，加上簡單利落的設計，迅速就被許多人認定是最完美的iPhone底座。 不過在N個月之後，ELEVATION Dock並不完美，因為⋯⋯它遲到了。&lt;/p&gt;
+
+&lt;p&gt;對於iPhone周邊廠商來說，今年最最最重要的事並不是iPhone 5變長，而是用了近10年的30pin同步底座，終於換成了全新設計的「Lightning」界面。首當其衝的，就是各式各樣的iPhone Dock，ELEVATION Dock也不例外。加上延遲出貨的關係，許多人拿到手的時候，身邊的iPhone 4/4S早就升級成iPhone 5了。&lt;/p&gt;
+
+&lt;p&gt;不過，反正貨都來了，總之就隨便開個箱吧⋯⋯&lt;/p&gt;
+
+&lt;p&gt; &lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 1975&quot; height=&quot;&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-1975.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-1975.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ELEVATION Dock的盒子，白色的紙盒。乍看之下似乎很高檔，不過比起Apple的紙盒來說，裁切跟組裝的精密度還是差遠了。不過盒子到還是其次啦⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 1981&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-1981.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-1981.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;盒子是抽屜式的設計，拉開之後就可以看到ELEVATION Dock本體了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 1984&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-1984.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-1984.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;盒子內左右兩側內部放著隨附的配件，小扳手、USB線跟變壓器。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 1990&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-1990.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-1990.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;盒子裡面的東西，包含Dock本體，一條比較長的USB線，六角扳手，USB變壓器。順道一提，這是「ELEVATION Dock＋」，有聲音輸出的那款。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2012&quot; height=&quot;&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2012.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2012.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ELEVATION Dock，如同大家所見的，基本上就是一塊鋁。底座設計除了30pin的同步接口之外，還有給iPhone喇叭用的出音口，以及可調整的橡膠墊片。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2016&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2016.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2016.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;照片上的墊片看起來很厚，不過其實可以拆下來。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2017&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2017.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2017.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;橡膠墊片其實有兩面，一面比較厚，一面比較薄，總之可以依照iPhone保護殻的類型來選擇適合的墊片厚度。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2022&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2022.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2022.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;墊片比較薄的那一面。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2018&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2018.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2018.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ELEVATION Dock的表面處理，外觀上看起來與目前Apple產品的鋁材還蠻相似的，只是表面紋路的顆粒感比起Apple來說重一些，不過整體來說依然是很不錯的。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 1994&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-1994.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-1994.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;底部左右兩側有很寬的橡膠止滑墊片，底板除了有兩個出音孔之外，設計上也是可以拆卸的。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 1999&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-1999.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-1999.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;用內附的小扳手卸下底部的螺絲之後，就可以把底板給拆下來了。拆下之後可以看到ELEVATION Dock+的電路板跟連接的USB線。不知道是不是個體差異，ELEVATION Dock+的底板卡得比較緊，ELEVATION Dock相對之下就好拆許多。 &lt;/p&gt;
+
+&lt;p&gt;根據ELEVATION Lab的設計，整個電路板是可以拆卸的。也就是說，未來還是可以更換整個電路模組升級成Lightning界面。ELEVATION Lab目前似乎也有計劃推出升級用的電路板⋯⋯希望啦。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2015&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2015.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2015.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在換USB線要注意的一點，請用手指壓著電路板上的USB插槽後再把線拔出來。因為連接的插槽是用點焊在電路板上，結構可以說是無敵脆弱，如果直接拔線的話很有可能直接把焊點扯開，希望下一版能改進啊⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2004&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2004.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2004.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;順道一提，這是「ELEVATION Dock」，沒有聲音輸出的版本。電路板的尺寸比起有聲音輸出的版本要小很多。而因為Dock鋁材本體的設計也不一樣，所以就算有單賣含聲音輸出的電路板也沒得升級（不過應該還是有機會升級到Lightning⋯⋯希望）。 &lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2053&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2053.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2053.jpg&quot; /&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2054&quot; height=&quot;&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2054.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2054.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;隨附的USB變壓器，小小一個，壁插式。 &lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2027&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2027.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2027.jpg&quot; /&gt; &lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2028&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2028.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2028.jpg&quot; /&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2029&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2029.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2029.jpg&quot; /&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2030&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2030.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2030.jpg&quot; /&gt; &lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2033&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2033.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2033.jpg&quot; /&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2035&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2035.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2035.jpg&quot; /&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2025&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2025.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2025.jpg&quot; /&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2032&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2032.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2032.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;各個角度的樣子，為了拍攝上的方便暫且把USB線先拔掉了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2044&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2044.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2044.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;放上iPhone 4S的樣子。&lt;/p&gt;
+
+&lt;p&gt;當然，因為Dock本身重量的關係，將iPhone拿起來的時候也非常輕鬆，Dock依然會穩穩地躺在桌子上。 &lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2047&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2047.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2047.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;側面，給大家看看斜度。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2051&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2051.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2051.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ELEVATION Dock預留的寬度與深度算是非常足夠，就算用比較厚的保護殻，&lt;/p&gt;
+
+&lt;p&gt;或是未來iPhone變厚了（應該不太可能⋯⋯），也可以繼續用下去。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2046&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2046.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2046.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;背面。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;ELEVATION Dock for iPhone 4 4s 2039&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2039.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2039.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;套上原廠Bumper，當然也可以輕鬆地放進去。不過因為手上沒有其他的保護殻，所以就沒得繼續試了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Elevatio Dock for iPhone 4 4s 2050&quot; src=&quot;/img/2012-10-14-iphone-4-4s-elevation-dock/Elevatio_Dock_for_iPhone_4_4s-2050.jpg&quot; title=&quot;Elevatio_Dock_for_iPhone_4_4s-2050.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;總之，ELEVATION Dock算是有達成了最初的目標⋯⋯一個能穩穩待在桌上的iPhone用底座。而再進一步來說，雖然用CNC成型的底座本體，在精密度上還是不及Apple，不過在質感上也已經比許多市面上的品牌要來的好，也更接近「Apple原廠」的感覺了。&lt;/p&gt;
+
+&lt;p&gt;當然現在要入手的話，也許許多人會等Lightning界面的版本推出之後再說。&lt;/p&gt;
+
+&lt;p&gt;不過如果您是打算等iPhone 5S（？）再換機，那倒是可以先考慮考慮。不過老實說現在下單，也不知道啥時能夠出貨就是了⋯⋯ &lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Elevation Lab&lt;/td&gt;
+      &lt;td&gt;Product Design Engineering&lt;/td&gt;
+      &lt;td&gt;Home](http://elevationlab.com)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Mon, 15 Oct 2012 02:09:56 +0800</pubDate>
+        <link>/post/2012/10/iphone-4-4s-elevation-dock</link>
+        <guid isPermaLink="true">/post/2012/10/iphone-4-4s-elevation-dock</guid>
+        
+        
+        <category>Accessory</category>
+        
+        <category>Article</category>
+        
+        <category>iPhone</category>
+        
+      </item>
+    
+      <item>
+        <title>Apple最大的挑戰：「Jobs會怎麼做？」</title>
+        <description>&lt;p&gt;&lt;img title=&quot;&quot; src=&quot;/img/2012-10-06-what-would-steve-do/apple_steve_jobs-memorial-20121005_1695.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p style=&quot;font-size: small;&quot;&gt;
+  本文為arstechnica「&lt;a href=&quot;http://arstechnica.com/apple/2012/10/the-ghost-of-jobs-apples-challenge-to-decide-what-would-steve-do/&quot;&gt;The ghost of Jobs: Apple&amp;#8217;s challenge to decide &amp;#8220;what would Steve do?&quot;&lt;/a&gt;」一文之翻譯，作者為Jacqui Cheng。
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在2011年8月，Apple經歷了一次重大的變革——Steve Jobs辭去了Apple CEO的職務，並交給了COO Tim Cook。這次並非臨時性的交替，而是永久性的。Jobs接受了董事會主席的新職位，在不到兩個月後，他辭世了。&lt;/p&gt;
+
+&lt;p&gt;一年前的今天，Jobs的辭世並不令人震驚，他在過去十年來不斷地與癌症以及相關的疾病奮戰著，但是這件事依然在科技界掀起了一波漣漪。對於Apple的員工，這是一個奇怪的轉變。無論喜歡與否，後Steve時代的Apple已經誕生，Apple內的所有人都將重新整裝出發。不過，該往哪個方向走？&lt;/p&gt;
+
+&lt;p&gt;Cook在他的新位置上面臨了獨特的挑戰，他不僅僅是一個新的CEO，他被放在顯微鏡下被檢視，看著他是否能成為合格的「Steve的繼承者」。Jobs已經指示Cook避免自問「Jobs會怎麼做？」這個問題，而是告訴他只要「做正確的事」。&lt;/p&gt;
+
+&lt;p&gt;不過Jobs在Apple的遺產已經成為了一股強大的力量，並且延伸到世界各地的Apple評論家們。「Steve會這樣做嗎？」成了一個最常見，同時也是令人厭惡的問題，並且每每在Apple做出任何媒體感興趣的事時出現。例如當Apple為了發佈一個不完整的產品，或是取消對產品的環保認證而道歉。&lt;/p&gt;
+
+&lt;p&gt;但是這並不僅僅只是外部的人會問著這個問題，許多Apple的員工——那些熱忱地開發著Apple顧客們每日使用的硬體與軟體的工程師們——發現他們自己在過去一年來再三捲入了「Jobs會怎樣做」的討論。即使他們不直接參與討論，也會從同事間聽到許多這類的話題。 這個問題在Apple內已經變的普遍，不過關於這些問題是否造成了正面的影響一事，也存在著諸多的分歧。&lt;/p&gt;
+
+&lt;p&gt;在Tim Cook帶領著Apple一年後，我們訪問了許多Apple的員工，找出在這位新老闆下有哪些變化。我們所訪問的員工所感覺到的Apple並不一定能代表整個公司。Apple即使從內部人員的角度來看，仍然是一個神秘的組織，而內部不同團隊也以不同的方式在運作著。不過我們的訪問對象來自公司內部許多不同的部門，以及各種不同的層級的經驗，以平衡地刻畫出後Steve時代在Infinite Loop One內的生活。&lt;/p&gt;
+
+&lt;h3 id=&quot;jobs&quot;&gt;Jobs會怎樣做？&lt;/h3&gt;
+
+&lt;p&gt;&lt;img title=&quot;th21-630-steve-jobs-at-computer-flickr-acaben.jpg&quot; src=&quot;/img/2012-10-06-what-would-steve-do/th21-630-steve-jobs-at-computer-flickr-acaben.jpg&quot; alt=&quot;Th21 630 steve jobs at computer flickr acaben&quot; width=&quot;525&quot; height=&quot;&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;貫穿所有的訪問， 同時也是過去一年反覆出現在公司內許多決策的主軸，就如同一個消息來源所說的：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt; “‘Steve wouldn’t have let that happen’ is something you’d hear all too often in the last 12 months. Anything from Maps to things such as the clusterfuck with John Browett.”&lt;/p&gt;
+
+  &lt;p&gt;「『Steve不會讓這種事情發生的』是過去12個月以來最常聽到的，任何事情都是如此，從地圖到John Browett（Apple Store的新負責人）的胡搞瞎搞。 」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;公司的許多失誤，例如iOS 6 的地圖，同樣也讓Apple員工感到混亂。根據另一名員工的說法：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt; “It was clear to anybody who would use it, even in the iOS betas, that Maps looks pretty bad. If someone had showed that to Steve, he would’ve said, ‘This looks like shit.’ He would have actually said that. Tim did the right thing by apologizing, but the better thing would’ve been, like, ‘We can’t ship this.’“ &lt;/p&gt;
+
+  &lt;p&gt;「只要是用過的人都能清楚地知道，即便是在beta版的iOS來說，地圖看起來真的很糟。如果有人把地圖拿給Steve看的話，他一定會說『這根本就是廢物。』他一定會真的這樣說。&lt;/p&gt;
+
+  &lt;p&gt;Tim透過道歉做出了正確的事，不過更好的方式應該是說『我們不能把這東西推出市場。』」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;不過，在Jobs的掌控下，同時也產生了一種保密，甚至是在Apple的日常生活中帶有一點恐懼的文化，這也讓研發部門更加地努力。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Steve would come up with a good idea—he came with a lot of bad ones, too—and somebody would be mobilized internally to start working on it, kind of like a startup. You vanished from your secret post to do some secret work, and many months later you’d return to your group to do your thing. That kind of thing doesn’t seem to happen anymore, or at least I haven’t seen it.”&lt;/p&gt;
+
+  &lt;p&gt;「Steve會帶來一個好點子——同時也會帶來許多不怎樣的點子——隨後一些人就會開始在內部動員起來開始工作，有點像是在創業。在收到秘密訊息之後，你會消失一陣子去做一些秘密工作，在幾個月之後又會回到你的團隊去做自己的事情。&lt;/p&gt;
+
+  &lt;p&gt;這種事情似乎再也沒有發生了，至少我還沒再一次看到過。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt; 有些人說，恐懼能夠更讓人將自己奉獻給工作。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Now that Steve’s gone, there’s a lack of hot-headedness, and there’s a lack of fear. As dumb as it sounds, fear is good. It keeps you from being complacent.”&lt;/p&gt;
+
+  &lt;p&gt;「現在Steve走了，公司已經開始缺乏熱血，也缺少了恐懼。雖然聽起來不怎樣，不過恐懼很好，可以讓人避免過於自滿。 」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在Cook的帶領下，公司的氣氛已經變了，不過並不是所有人都喜歡新的做法。我們所訪問的員工中，有些人並不同意新做法，例如在處理地圖問題方面，不是每個人都認為Cook的道歉是正確的。一些員工則興奮地表示Apple似乎會比Jobs時期有更頻繁的變化。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I can bring to memory possibly two Steve apologies, ever. MobileMe, and the bumper issue with the iPhone 4—and of those, only MobileMe was an actual apology,” &lt;/p&gt;
+
+  &lt;p&gt;「我能想到Steve道歉的次數大概只有兩次，MobileMe與iPhone 4的天線門問題。而在這兩次裡，只有MobileMe能算是真正的道歉。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一位Apple員工如此地敘述。&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;爸爸媽媽為什麼會吵架?&lt;/h3&gt;
+
+&lt;div style=&quot;margin: 0 0 5px 0; height: 260px; overflow: hidden;&quot;&gt;
+  &lt;img title=&quot;tim cook and steve jobs.jpg&quot; src=&quot;/img/2012-10-06-what-would-steve-do/tim-cook-and-steve-jobs.jpg&quot; alt=&quot;tim cook and steve jobs&quot; width=&quot;525&quot; border=&quot;0&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;對某些懷疑Cook決策能力的員工來說，將Jobs與Cook互相比較的時代已經漸漸地消失。根據一名員工的說法：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I think a lot of people see Apple and think, ‘Oh man, there are politics and internal bickering and Steve Jobs would never have let that happen!’ But the truth is: it’s a big company and it was always like this. It’s no different than before. Bad decisions are being made. Maps sucks. But MobileMe sucked, too, and that was under Steve Jobs.”&lt;/p&gt;
+
+  &lt;p&gt;「我想許多人會看著Apple，然後說：『老兄，Steve不會讓那些公司政治跟內部爭論發生的！』不過事實是——Apple是一家大公司，而內部一直都是如此。&lt;/p&gt;
+
+  &lt;p&gt;現在與過去並沒有任何不同，Apple內部依然做出了許多糟糕的決策。地圖很爛，但是MobileMe同樣也很爛，而且那是在Steve Jobs還在的時候。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;這些爭論對某些人而言已經成了一種阻力。在同事們不斷地爭論著是否Apple正在往正確的方向前進時，Apple的員工真的可以好好地工作嗎？&lt;/p&gt;
+
+&lt;p&gt;對其他人說，他們的日常工作並沒有受到影響。雖然許多接受訪問的Apple員工描述那些在他們各自團隊內的爭論，不過大部份人都同意，對於工程師以及工程師以下階層的人來說，日常的生活從去年以來並沒有什麼不同。（對於零售員工來說是例外，他們對John Browett管理下的改變有著很多的意見。）&lt;/p&gt;
+
+&lt;p&gt;我們所採訪的員工同時也指出在Jobs離開後，由Cook所改進的部分。最重要的是，他緊緊掌控著生產運作——今日客戶們在網路上訂購的產品， 許多東西在他們下單前甚至還沒有開始生產。根據一位員工的描述：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt; “You remember ten years ago when they would announce some stuff and it wouldn’t come out for months? If this were ten years ago, if you couldn’t get an iPhone 5 in three weeks, you may as well just give it up.”&lt;/p&gt;
+
+  &lt;p&gt;「你還記得十年以前，當他們發表產品之後，有好幾個月的時間都還沒辦法供貨嗎？如果是在十年前，當你三個星期都沒辦法買到iPhone 5，你大概就會放棄了。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;而另一位員工表示，Cook非常善於「把那些麻煩的事情給搞定。」&lt;/p&gt;
+
+&lt;p&gt;此外，還有金錢方面。 &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We’re making more money, as a company and on an individual level. Watching the stock price go up and up—I credit Tim for that.” &lt;/p&gt;
+
+  &lt;p&gt;「我們正在賺更多的錢，無論是公司或是個人。在這方面我相信Tim，因為我看到股價不斷地往上漲。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;員工也說Cook也比Jobs更平易近人，對於較低階的員工來說，他們也覺得比較輕鬆，可以在餐廳跟他說話，或是在走廊上接近他。Cook最近也透過Email宣布公司將延長感恩節的假期，這些事情Jobs同樣也有做，不過部分員工覺得Cook在「答謝辛苦工作的員工們」這方面做得更好。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;未來。 &lt;/h3&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple back to the future.jpg&quot; src=&quot;/img/2012-10-06-what-would-steve-do/Apple-back-to-the-future.jpg&quot; alt=&quot;Apple back to the future&quot; width=&quot;525&quot; height=&quot;&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;無論如何，Steve會怎樣做並不重要，因為他已經走了。重要的仍然是Apple會怎樣做。&lt;/p&gt;
+
+&lt;p&gt;一位熟悉Apple整體零售運作的人抱持著悲觀的看法：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I really am worried as to what Apple will be like in three years. I’m sure that corporate will be fine, pushing out the iPhone Classic or whatever, and that retail will be awash with idiots. It feels like the mid-’90s all over again. We can still remember how awesome we were, and so we can’t see the storm rolling on in.”&lt;/p&gt;
+
+  &lt;p&gt;「我真的很擔心Apple在三年之後會是怎樣。我相信公司狀況依然會不錯，不斷地推出iPhone Classic或是其他的玩意，而零售部門會有一堆白癡。&lt;/p&gt;
+
+  &lt;p&gt;這感覺就像90年代，我們只覺得自己棒透了，讓我們沒辦法看到即將來臨的風暴。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;不過正如同這個來源所敘述的，許多接受訪問的Apple員工依然對未來有更加正面的觀點。根據一位員工的說法：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I don’t know what our next big thing is going to be, beyond what I’m currently working on. And I don’t know if Steve was the one who had all the ideas, or if he and Jony Ive came up with them together, or what. But Apple is kind of on a track right now where we can print our own money for a while.”&lt;/p&gt;
+
+  &lt;p&gt;「我不知道我們接下來會有啥大動作，這已經超出了我目前的工作範圍。我不清楚是否Steve是那個想出所有點子的人，還是Steve與Jony Ive兩個人一起想出來的。無論如何，Apple現在似乎正在軌道上，我們暫時還能繼續賺大錢。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一位員工則強調，Apple是一間詭異的公司，而且將會一直詭異下去。他也認為，在未來也沒有任何理由會改變這點 。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The goal is the same, the motivations appear the same.”&lt;/p&gt;
+
+  &lt;p&gt; 「目標仍然相同，動機顯然也是一樣的。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;對於Cook是否在過去一年裡採取與Steve不一樣的做法這點，有許多不同的意見，不過在Apple內的員工都同意，Cook在自己的權力範圍內，一直都是一個強而有力的領導者。 正如一位員工所說的：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I think the Apple doomsayer articles are grabbing at straws.”&lt;/p&gt;
+
+  &lt;p&gt;「我覺得看蓑Apple的評論家們只是在抓著最後的稻草不放。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;員工們將Cook形容為一個聰明，能夠做出許多Jobs曾經作出的許多困難決定的人。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I think the general consensus at Apple is that he seems like a nice guy. He’s very different from Steve, but that’s not a problem.”&lt;/p&gt;
+
+  &lt;p&gt;「我覺得在Apple內許多人的共識是，他看起來似乎是個不錯的傢伙。他跟Steve非常地不一樣，不過那並不是問題。 」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;雖然對於Apple的內部文化來說，何時才能離開對Steve的想法以及遺產的討論，&lt;br /&gt;
+依然是一個未知數，不過員工們希望它早點出現，讓他們可以將精神集中做出更好的作品來。如同Cook在公司季度財報的電話會議上的態度，一些Apple員工興高采烈地暗示著，許多有趣的東西已經在生產線上運作著。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt; “I think we’ll continue to ship a lot of cool shit.”&lt;/p&gt;
+
+  &lt;p&gt;「我認為我們依然會繼續推出許多很酷的玩意。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一位員工如此地放話。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;via [The ghost of Jobs/ Apple’s challenge to decide “what would Steve do?”&lt;/td&gt;
+      &lt;td&gt;Ars Technica](http://arstechnica.com/apple/2012/10/the-ghost-of-jobs-apples-challenge-to-decide-what-would-steve-do/)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sun, 07 Oct 2012 07:37:55 +0800</pubDate>
+        <link>/post/2012/10/what-would-steve-do</link>
+        <guid isPermaLink="true">/post/2012/10/what-would-steve-do</guid>
+        
+        
+        <category>Apple</category>
+        
+        <category>Article</category>
+        
+        <category>Steve Jobs</category>
+        
+        <category>Tim Cook</category>
+        
+      </item>
+    
+      <item>
+        <title>Apple網站公開Steve Jobs辭世一週年紀念影片。</title>
+        <description>&lt;p&gt;&lt;img title=&quot;Apple Website 2012-10-05-Steve Jobs-remembering.png&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/Apple-Website-2012-10-05-Steve-Jobs-remembering.png&quot; alt=&quot;Apple Website 2012 10 05 Steve Jobs remembering&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在Steve Jobs辭世一週年的今天，Apple網站首頁播送了由Steve Jobs公開演說錄音片段以及黑白像片所剪輯而成的「Remembering Steve」紀念影片，以及Apple現任CEO Tim Cook為了紀念Jobs所寫下的公開信。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;apple_steve_jobs-memorial-20121005_45.jpg&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/apple_steve_jobs-memorial-20121005_45.jpg&quot; alt=&quot;Apple steve jobs memorial 20121005 45&quot; /&gt;&lt;img title=&quot;apple_steve_jobs-memorial-20121005_240.jpg&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/apple_steve_jobs-memorial-20121005_240.jpg&quot; alt=&quot;Apple steve jobs memorial 20121005 240&quot; /&gt;&lt;img title=&quot;apple_steve_jobs-memorial-20121005_450.jpg&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/apple_steve_jobs-memorial-20121005_450.jpg&quot; alt=&quot;Apple steve jobs memorial 20121005 450&quot; /&gt;&lt;img title=&quot;apple_steve_jobs-memorial-20121005_645.jpg&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/apple_steve_jobs-memorial-20121005_645.jpg&quot; alt=&quot;Apple steve jobs memorial 20121005 645&quot; /&gt;&lt;img title=&quot;apple_steve_jobs-memorial-20121005_1335.jpg&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/apple_steve_jobs-memorial-20121005_1335.jpg&quot; alt=&quot;Apple steve jobs memorial 20121005 1335&quot; /&gt;&lt;img title=&quot;apple_steve_jobs-memorial-20121005_900.jpg&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/apple_steve_jobs-memorial-20121005_900.jpg&quot; alt=&quot;Apple steve jobs memorial 20121005 900&quot; /&gt;&lt;img title=&quot;apple_steve_jobs-memorial-20121005_1170.jpg&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/apple_steve_jobs-memorial-20121005_1170.jpg&quot; alt=&quot;Apple steve jobs memorial 20121005 1170&quot; /&gt;&lt;img title=&quot;apple_steve_jobs-memorial-20121005_1695.jpg&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/apple_steve_jobs-memorial-20121005_1695.jpg&quot; alt=&quot;Apple steve jobs memorial 20121005 1695&quot; /&gt;&lt;img title=&quot;apple_steve_jobs-memorial-20121005_1875.jpg&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/apple_steve_jobs-memorial-20121005_1875.jpg&quot; alt=&quot;Apple steve jobs memorial 20121005 1875&quot; /&gt;&lt;img title=&quot;apple_steve_jobs-memorial-20121005_1500.jpg&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/apple_steve_jobs-memorial-20121005_1500.jpg&quot; alt=&quot;Apple steve jobs memorial 20121005 1500&quot; /&gt;&lt;img title=&quot;apple_steve_jobs-memorial-20121005_2070.jpg&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/apple_steve_jobs-memorial-20121005_2070.jpg&quot; alt=&quot;Apple steve jobs memorial 20121005 2070&quot; /&gt;&lt;img title=&quot;apple_steve_jobs-memorial-20121005_2385.jpg&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/apple_steve_jobs-memorial-20121005_2385.jpg&quot; alt=&quot;Apple steve jobs memorial 20121005 2385&quot; /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/DTGkKJyW2As&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+    &lt;img title=&quot;Apple Website 2012-10-05-latter-from-timcook.png&quot; src=&quot;/img/2012-10-05-apple-webpage-stevejobs-memorial-20121005/Apple-Website-2012-10-05-latter-from-timcook.png&quot; alt=&quot;Apple Website 2012 10 05 latter from timcook&quot; /&gt;
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    Steve&amp;#8217;s passing one year ago today was a sad and difficult time for all of us. I hope that today everyone will reﬂect on his extraordinary life and the many ways he made the world a better place.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    One of the greatest gifts Steve gave to the world is Apple. No company has ever inspired such creativity or set such high standards for itself. Our values originated from Steve and his spirit will forever be the foundation of Apple. We share the great privilege and responsibility of carrying his legacy into the future.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    I’m incredibly proud of the work we are doing, delivering products that our customers love and dreaming up new ones that will delight them down the road. It’s a wonderful tribute to Steve’s memory and everything he stood for.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    對我們來說，Steve在一年前的今天辭世是一個讓人傷心的艱困時刻。在今天，我希望所有人都可以回顧他非凡的一生，以及他讓這世界變得更好所做的種種。
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    Steve給這世界最偉大的禮物是Apple。沒有任何一家公司激盪出了如此多的創新，或是為自己立下了如此高的標準。我們的價值觀起源自Steve，他的精神將永遠成為Apple的基石。我們將擔起這偉大的權利以及責任，將他的遺產帶向未來。
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    對於我們正在進行的工作——將我們的顧客所喜愛的產品提供給他們，以及創造出讓他們能高興的新產品，我感到非常地驕傲。這也是對Steve的回憶，以及由他所支持的每件事最棒的讚頌。
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    Tim
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;via &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 06 Oct 2012 03:57:17 +0800</pubDate>
+        <link>/post/2012/10/apple-webpage-stevejobs-memorial-20121005</link>
+        <guid isPermaLink="true">/post/2012/10/apple-webpage-stevejobs-memorial-20121005</guid>
+        
+        
+        <category>Apple</category>
+        
+        <category>Steve Jobs</category>
+        
+      </item>
+    
+      <item>
+        <title>除了螢幕之外，另一個在iPhone 5上變長的東西。</title>
+        <description>&lt;p&gt;&lt;img alt=&quot;iPhone4_iPhone5_applelogosticker&quot; border=&quot;0&quot; height=&quot;&quot; src=&quot;/img/2012-09-29-apples-attention-to-detail-even-goes-down-to-their-pre-packaged-stickers/iPhone4_iPhone5_applelogosticker.jpg&quot; title=&quot;iPhone4_iPhone5_applelogosticker.jpg&quot; width=&quot;525&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;iPhone 5除了螢幕變長了之外，傳統在包裝內隨附的水果貼紙也稍微變長（變大？）了一點。雖然這對許多人來說根本無關緊要，不過⋯⋯這就是Apple追求細節的地方吧？&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;via [Apple’s attention to detail even goes down to their pre-packaged stickers&lt;/td&gt;
+      &lt;td&gt;Edible Apple](http://www.edibleapple.com/2012/09/28/apples-attention-to-detail-even-goes-down-to-their-pre-packaged-stickers/?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+EdibleApple+%28Edible+Apple%29&amp;amp;utm_content=Google+Reader)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sat, 29 Sep 2012 18:51:04 +0800</pubDate>
+        <link>/post/2012/09/apples-attention-to-detail-even-goes-down-to-their-pre-packaged-stickers</link>
+        <guid isPermaLink="true">/post/2012/09/apples-attention-to-detail-even-goes-down-to-their-pre-packaged-stickers</guid>
+        
+        
+        <category>iPhone</category>
+        
+      </item>
+    
+      <item>
+        <title>[開箱＋試聽感想] Apple 2012年新款線控耳機「EarPods」。</title>
+        <description>&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1680.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1680.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1680&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在這次iPhone 5發表會過後，雖然大家都（？）對新產品的到來感到非常興奮，不過拜Apple全球策略以及鬼島某個叫做NCC的組織之賜，別說是iPhone 5了，就連新款iPod touch與iPod nano都得要十月（預定）才會出現在台灣通路上。&lt;/p&gt;
+
+&lt;p&gt;不過，好在我們還有個新玩意馬上就可以玩得到，那就是等了N年終於開始認真設計的Apple原廠標準耳機——EarPods。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1664.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1664.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1664&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;新的EarPods耳機，包裝好像比之前的要高檔多了（不過我其實有點忘記舊款標準耳機的包裝是長啥樣了⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1667.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1667.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1667&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;新耳機的名稱叫做「EarPods」，感覺命名概念應該是跟當初iPod一樣吧？如果忘記當年iPod命名由來的話，可以看看&lt;a href=&quot;http://whiteappleer.tw/2010/10/24/the-story-of-ipod/&quot;&gt;這篇文章&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1687.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1687.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1687&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;總之，包裝是透明塑膠＋白色紙盒，撕下盒子頂部的吊卡之後就可以打開。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1696.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1696.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1696&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;包裝內容——兩小本的說明書，還有EarPod本體以及收納盒。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1702.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1702.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1702&quot; /&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1704.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1704.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1704&quot; /&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1709.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1709.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1709&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;收納盒蠻漂亮的，就像個小粉餅盒。不過材質畢竟就是塑膠，用一段時間之後大概就會出現刮痕，變得沒那麼好看了吧？&lt;/p&gt;
+
+&lt;p&gt;另外，收納盒也有卷線的設計，收納方式並不難，可以輕鬆收回出廠時的樣子。 &lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1712.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1712.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1712&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;打開收納盒的蓋子。蓋子沒啥機關，就是直接拔起來這樣⋯⋯ &lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1714.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1714.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1714&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;總之，這就是本篇的主角「EarPods」，同時也是接下來N年都會陪伴著大家的新耳機了 。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1718.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1718.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1718&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;EarPods最特別的，就是那乍看之下完全不像是耳機的造型。硬要說的話，就是Jony騎士大人最喜歡的⋯⋯衛浴設備風格吧？ &lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1719.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1719.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1719&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;設計上最大的特徵，就是主要的出音孔並不是直接面向耳朵，而是轉了90度方向。根據Apple的說法，新設計可以更直接地把聲音送到耳道，讓音響效果更好。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1721.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1721.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1721&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;面向耳朵內側的另一個開孔。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1726.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1726.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1726&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; 另外在耳機前端、末端兩側各還有一道開孔，據說是用來控制中低頻用的。總之，這次Apple花了不少心思在音箱設計上。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1730.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1730.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1730&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;另外，號稱取樣了好幾百人的耳道模型做出來的耳塞造型似乎也真的有點用處， &lt;br /&gt;
+先不論密閉性如何，至少我戴起來還蠻舒服的⋯⋯ &lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1748.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1748.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1748&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;改變除了耳機本體改變之外，線孔部分也有了大升級。線控外觀除了兩端修成了圓角之外，線孔整體也比之前要來的長了些。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1735.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1735.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1735&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;改更大的部分其實是在線控背面的麥克風部分。新的麥克風外觀已經沒有以前的收音孔，只有光滑的背面以及麥克風的小圖示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1764.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1764.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1764&quot; height=&quot;&quot; /&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1768.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1768.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1768&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;至於沒改的部分，大概就是耳機接頭還有分線的部分了吧？&lt;/p&gt;
+
+&lt;p&gt;開箱部分大概就到這邊，接下來就是簡單的感想時間。&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;新設計的造型&lt;/h3&gt;
+
+&lt;p&gt;也許不少人會懷疑這種新設計的耳機造型，還有那怪怪的音孔位置，戴起來會是怎樣的感覺。就我自己來說，佩戴的感覺其實就跟一般耳塞式耳機差不多，只是感覺更貼近耳道內（事實上就設計來說也是如此）。而且特殊的造型似乎也更貼合耳朵的造型，至少比起以前那圓形的設計要來得好得多。&lt;/p&gt;
+
+&lt;p&gt;不過新設計讓耳機本體大部份的面積都是亮面的塑膠材質，還蠻容易沾上皮膚油脂的。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;有效調節聲音的開孔設計&lt;/h3&gt;
+
+&lt;p&gt;在前面有提到，這次Apple在耳機外側做了三道開孔來調節聲音，讓中低頻有更好的表現。總之這設計是真的有很明顯的效果，如果想測試看看的話⋯⋯直接用手把開孔蓋住就好，聲音馬上就會變得很單薄。無聊的人不妨玩玩看XD&lt;/p&gt;
+
+&lt;h3 id=&quot;earpods&quot;&gt;耳塞式耳機、內耳式耳機與EarPods&lt;/h3&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1757.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1757.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1757&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;就定義來說，EarPods應該還是屬於耳塞式耳機，不過無論是戴起來，或是聽起來都有點介於耳塞式耳機與內耳式耳機。 &lt;/p&gt;
+
+&lt;p&gt;內耳式耳機普遍的優點就是低音表現更好，不過塞入耳道的佩戴方式總是有些人不太適應（像我就是） 。另外，內耳式耳機密閉性太好有時候也是問題，除了低音可能會太超過，有時會發生過度共鳴，聽起來開放感不足之外，聽不到周遭環境帶來的危險性也是個問題。&lt;/p&gt;
+
+&lt;p&gt;EarPods的設計或多或少解決了內耳式耳機的一些缺點，不會有過侵入耳道帶來的不舒適感， 同時又有近似於內耳式耳機的聲音效果。而相對於內耳式耳機來說，EarPods聽起來又不會太過貼近耳內，開放感也好上許多。&lt;/p&gt;
+
+&lt;p&gt;當然，這是以相對接近的價格帶範圍而論啦。&lt;/p&gt;
+
+&lt;h3 id=&quot;appleearpods&quot;&gt;Apple舊款耳機與EarPods&lt;/h3&gt;
+
+&lt;p&gt;Apple歷代以來，無論是iPod或是iPhone隨附的耳機，評價都是「不怎麼樣」。除了本身解析度就高不到哪裡去之外，低音有時除了糊成一團之外，連帶過度共鳴讓中高音也受到影響，總之感覺就像是罩上了一層霧一樣。&lt;/p&gt;
+
+&lt;p&gt;也許是因為新的音箱設計，EarPods在低音部分的改進相當明顯。除了低音的解析度變高之外，在舊款耳機中由於低音問題讓整個聲音都受到影響的問題也解決了。在低音量很大的狀況下，不僅是低音本身，中高音的細節依然也能聽的很清楚。&lt;/p&gt;
+
+&lt;p&gt;而這也帶來的另一個好處。在舊款耳機下，由於低音容易干擾中高音，要聽到更多細節唯有加大音量一途。不過到了EarPods上，由於低音不會干擾到中高音，因此不需加大音量，EarPods也能聽到比舊款耳機更豐富的細節。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;曲目試聽&lt;/h3&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1770.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1770.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1770&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;據說一寫到音響類的玩意，最後總是要找一些曲目來寫一下實際聽感，所以以下就是我自己超不專業的感覺，僅供參考就是了⋯⋯⋯&lt;/p&gt;
+
+&lt;p&gt;試聽環境：Mac mini + iTunes 10.6.3 + BitPerfect + NuForce uDAC2 / iPhone 4S。比較基準耳機：harman/kardon CL、SONY MDR-F1、舊款Apple標準線控耳機。&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;strong&gt;愛葉言 ／ DECO*27 ／ LOVE CALENDER&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;除了低中高音平衡，人聲部分稍為比較多一點之外，該有的都有表現出來，沒啥明顯的特點。&lt;/li&gt;
+  &lt;li&gt;舊款耳機相比之下，聽起來比較密閉，在低音多的部分整個就會糊成一團，連帶人聲部分解析度也跟著降低。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;strong&gt;Dog Fight ／ 菅野よう子 ／ MACROSS PLUS SOUND TRACK PLUS〜for fans only〜&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;EarPods的表現出乎意料地好，不僅音場夠寬闊，而且高音夠亮，低音夠足。雖然低音聽起來還是有一點死死的，不過就這價位的小耳機來說已經算很棒了。&lt;/li&gt;
+  &lt;li&gt;舊款耳機的場合，整個聲音無論是低中高頻，都有一層被矇在鼓裡的感覺。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;strong&gt;Imagine The Fire ／ Hans Zimmer ／ The Dark Knight Rises&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;這首算是最近電影原聲帶裡，重低音最威的一張了吧？低音部分的表現就小耳機來說也很不錯，就是音場窄了點，層次感稍微少了點。不過比起舊款耳機來說低音的表現還是好上不少，中高音聽起來也更清楚。而讓人比較意外的是，聽起來開放感還蠻不錯的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;strong&gt;eternal blue  ／ FictionJunction  ／ Distance/eternal blue&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;人聲表現中規中矩，不過原本以為鼓組會超級強勁，沒想到聽起來有點不太夠力的感覺。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;strong&gt;Set Piece ／ LittleWitch ／ Quartett!&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;弦樂器的細節表現不錯，不過音場似乎有一些過於接近，轉折處有點不太夠力，聲音稍微有點偏冷。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;strong&gt;Re:Birth &amp;#8211; 愚者の舞 from 聖剣伝説4 ／ 伊藤賢治 ／ Re:Birth/聖剣伝説 伊藤賢治アレンジアルバム&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      吉他的聲音聽起來相當舒服，也很有彈性，人生的部分彈舌音也很清晰，高音很漂亮也很夠力。
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;strong&gt;夢想歌 ／ Suara ／ Pure-AQUAPLUS LEGEND OF ACOUSTICS&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;人聲部分可以聽出不少細節，不過有一點點沒那麼甜，配樂裡的一些小音效聽起來也比較接近，空間感有點不太夠。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;strong&gt;Departures ~あなたにおくるアイの歌~ ／ EGOIST ／ Departures ~あなたにおくるアイの歌~&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      人聲的空氣感很棒，細節也很夠，不過聽起來不是在耳邊唱歌，更像是在腦內唱給你聽⋯⋯。另外在這首的狀況下，低音稍微有點多。
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;nt990&quot;&gt;結論：這玩意才NT$990噎⋯⋯&lt;/h3&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1675.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1675.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1675&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;EarPods對於聽慣了原本不怎麼樣的Apple耳機的人來說，應該會感覺有很大幅度的進步。最明顯的特點是整體解析度變高了，而且低音的音質也好上許多。當然就一般的消費級耳機來說，調音稍微加重中音的部分似乎也是合情合理。&lt;/p&gt;
+
+&lt;p&gt;由於在設計上，EarPods的出音部分就是比較深入耳道，聽起來聲音當然也會有比較接近的感覺。雖然這樣說可能有點誇張，在一些曲目的確是有種「樂團在腦內演奏」的感覺。當然這部分隨個人喜好，不過大部份人應該都會覺得歌手在耳邊唱歌的感覺更好吧？&lt;/p&gt;
+
+&lt;p&gt;另外，新的設計也減少了以往容易過度共鳴，讓整個聲音解析度變低，中高音被低音給淹沒的狀況。以前需要調大音量才能夠聽到的細節，現在不用開到那麼大聲也可以清楚地聽見，而且細節還更加地豐富了。&lt;/p&gt;
+
+&lt;p&gt;考慮到這玩意也不過才NT$990，我想真的是無敵超值的耳機了。如果您一直都是用Apple原廠的線控耳機的話，花點小錢換這隻耳機我想還是挺划算的。另外，如果您是那種老是無法習慣內耳式耳機，又覺得內耳式耳機聲音效果很棒的人，不妨也可以試試看EarPods。&lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;Apple-2012-New-Earphone-EarPods_1717.jpg&quot; src=&quot;/img/2012-09-19-apple-2012-new-earphone-earpods-unbox-and-review/Apple-2012-New-Earphone-EarPods_1717.jpg&quot; alt=&quot;Apple 2012 New Earphone EarPods 1717&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;就算現在不出手，反正以後所有的iPhone、iPod都會內附這玩意了。我想聽慣了EarPods之後，如果要換掉這隻耳機，大概就會直接挑兩張半～三張小朋友以上的玩意了吧⋯⋯ &lt;/p&gt;
+
+&lt;h3 id=&quot;earpods-1&quot;&gt;EarPods，優點：&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;解析度夠高，不用開大聲也能聽到許多細節。&lt;/li&gt;
+  &lt;li&gt;低音足夠，同時也不會過度共鳴。&lt;/li&gt;
+  &lt;li&gt;戴起來頗舒服，不會有過於密閉的感覺。&lt;/li&gt;
+  &lt;li&gt;附送可以方便收納耳機的小盒子。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;缺點：&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;聲音雖然比一般內耳式耳機要來得有開放感，不過音場有點小，聲音聽起來比較接近，有時候會有種樂團在腦內演奏的感覺。&lt;/li&gt;
+  &lt;li&gt;耳機本體大部份面積都是亮面塑膠，有點容易沾上皮膚油脂。在意的人可能要常常清潔一下吧？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;不算缺點也不算優點：&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;聲音調整稍微強調中音，人聲部分比較突出一些，不過整體來說低中高音的量算是蠻平衡的。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 19 Sep 2012 10:21:46 +0800</pubDate>
+        <link>/post/2012/09/apple-2012-new-earphone-earpods-unbox-and-review</link>
+        <guid isPermaLink="true">/post/2012/09/apple-2012-new-earphone-earpods-unbox-and-review</guid>
+        
+        
+        <category>Accessory</category>
+        
+        <category>Article</category>
+        
+        <category>EarPods</category>
+        
+        <category>iPhone</category>
+        
+        <category>iPod</category>
+        
+      </item>
+    
+      <item>
+        <title>iCloud帳號入侵事件 —— Amazon認為不重要，可以直接顯示在網路上的那四碼，正是Apple認為夠安全，足以驗證身份的那四碼。</title>
+        <description>&lt;p&gt;&lt;img title=&quot;iCloud-hack.jpg&quot; src=&quot;/img/2012-08-08-apple-amazon-mat-honan-hacking/iCloud-hack.jpg&quot; alt=&quot;iCloud hack&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;最近與Apple相關的資安問題中，最熱門的就是Wired編輯Mat Honan的iCloud帳號（=Apple ID）被入侵的事件了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;float: right; margin: 0 0 20px 20px;&quot; title=&quot;matHonan_v4edit.jpg&quot; src=&quot;/img/2012-08-08-apple-amazon-mat-honan-hacking/matHonan_v4edit.jpg&quot; alt=&quot;MatHonan v4edit&quot; width=&quot;250&quot; border=&quot;0&quot; /&gt;在短短的一個小時之內，他的Google帳號被駭客接手並且刪除、Twitter帳號也被盜走，並用來散發亂七八糟的訊息。最糟糕的，是他的Apple ID也被盜走，而駭客也利用Apple ID將他的iPhone、iPad與MacBook上的資料全部從遠端清除的一乾二淨。 &lt;/p&gt;
+
+&lt;p&gt;究竟駭客是如何盜走Honan的iCloud帳號？首先，根據Apple技術支援服務（AppleCare）的說法，要獲得某個人的iCloud存取權，只需要以下這些資訊：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Apple ID下登錄的信用卡號碼末四碼。&lt;/li&gt;
+  &lt;li&gt;Apple ID的帳單地址。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;只要有這些訊息，Apple的技術支援服務電話就會發出臨時密碼，此臨時密碼可以讓使用者獲得iCloud帳號完整的存取權限。&lt;/p&gt;
+
+&lt;p&gt;不過對於這次Mat Honan的案例，Apple發言人Natalie Kerris表示：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Apple takes customer privacy seriously and requires multiple forms of verification before resetting an Apple ID password. In this particular case, the customer’s data was compromised by a person who had acquired personal information about the customer. In addition, we found that our own internal policies were not followed completely. We are reviewing all of our processes for resetting account passwords to ensure our customers’ data is protected.”&lt;/p&gt;
+
+  &lt;p&gt;Apple非常認真地看待顧客的隱私，並且在重置Apple ID密碼之前，會要求各種形式的身份認證。在這個特別的案例下，顧客的資料被其他持有顧客個人情報的人所盜取。此外，我們也發現我們的內部政策並沒有被完全遵守。我們正在檢視我們重置密碼的所有流程，以確保我們顧客的資料受到保護。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;不過最重要的是，駭客是如何取得Mat Honan的帳單地址，以及關鍵的信用卡末四碼？根據Mat Honan在Wired上所刊登的文章，以下是整個駭客過程⋯⋯&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;在被駭客的當晚，我試著釐清我的數位生活是如何被毀滅的。我的Google帳號被毀滅、Twitter帳號被凍結、我的手機由於被重置而一整個無用、而我一整個處於極度的被害妄想之中，並用著我的.Me帳號通訊。&lt;/p&gt;
+
+  &lt;p&gt;在舊帳號回復之前，我決定建一個新的Twitter帳號來讓其他人知道這是怎麼一回事。我登入Tumblr並寫下整個經過。在當時，我以為是我的七位數字Apple ID密碼被駭客使用暴力法破解了。在文章回應中，有人猜測駭客使用了某種形式的擊鍵側錄程式。在文章的最後，我留下了我的新Twitter帳號連結。&lt;/p&gt;
+
+  &lt;p&gt;然後，攻擊我的其中一名駭客從Twitter發＠訊息給我。在稍後他自稱為Phobia。 我follow了他，他也follow了我。&lt;/p&gt;
+
+  &lt;p&gt;我們開始透過Twitter私訊通信，隨後開始透過email以及AIM聯繫。Phobia透露了整個駭客過程中的足夠訊息，讓我確信這的確是他做的。至少，他是其中之一。我同意不提起控訴，而回報是告訴我他究竟是如何入侵我的帳戶。不過首先，他想要澄清的是：&lt;/p&gt;
+
+  &lt;p&gt;我並沒有猜測你的密碼或是使用暴力法破解。我有我自己的一套方法來弄到email。&lt;/p&gt;
+
+  &lt;p&gt;我問他為何如此作。這是特別針對我嗎？或是這只是為了弄到GIZMODO的Twitter帳戶？不過事實並不是如此，Phobia表示他們並不知道我的帳號有跟GIZMODO的帳號連結，GIZMODO的帳號只是甜頭。他說這個駭客行動只是為了搶到我的三字母Twitter名稱，他們只想要這個。他們只是想拿到這個帳號，把這帳號給搞爆，然後看著他毀滅。&lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;“I honestly didn’t have any heat towards you before this. i just liked your username like I said before” &lt;/p&gt;
+
+    &lt;p&gt;老實說在此之前我根本一點也不在意你，我只是喜歡你的帳號名稱，就如同我之前所說的。&lt;/p&gt;
+  &lt;/blockquote&gt;
+
+  &lt;p&gt;他透過Twitter私信這樣告訴我。&lt;/p&gt;
+
+  &lt;p&gt;在瀏覽過我的帳號之後，駭客們做了一些背景調查。我的Twitter帳號有連結到我的個人網站，在網站上他們找到了我的Gmail信箱。Phobia猜測這個Gmail信箱也是我用來註冊Twitter的信箱，於是他連到了Google的帳號重置頁面。不過他根本沒有真的試著去重置帳號，這只是個偵查任務罷了。&lt;/p&gt;
+
+  &lt;p&gt;由於我沒有打開Google的雙重身份認證功能，當Phobia輸入我的Gmail地址後，他就可以看到我設定用來重置Google帳號的備用信箱。雖然Google隱藏了部分的資訊，將許多字母打上了「＊」號，不過仍然留有足夠的字母（來猜出整個信箱），m****n@me.com。賓果！！&lt;/p&gt;
+
+  &lt;p&gt;這就是駭客行動的過程。如果我用的是Apple以外的信箱，或是開啟Gmail的雙重身份認證功能，整個駭客行動就會到此停止。但是由於我用了.Me信箱當成備用信箱，代表著告訴駭客我有一個Apple ID帳號，這也表示我有漏洞可以入侵。&lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;“You honestly can get into any email associated with apple,”&lt;/p&gt;
+
+    &lt;p&gt;老實說，你可以進入任何與Apple相關聯的Email。&lt;/p&gt;
+  &lt;/blockquote&gt;
+
+  &lt;p&gt;而當這一切發生時，這句話似乎非常正確。&lt;/p&gt;
+
+  &lt;p&gt;由於他已經有了Email位置，要讓Apple的技術支援人員將我帳號的密碼發給他，需要的就只剩下我的帳單地址，以及我的信用卡卡號末四碼。&lt;/p&gt;
+
+  &lt;p&gt;所以，他是如何取得這些關鍵訊息的？他從簡單的開始。透過Whois搜尋我的個人網站domain，他找到了我的帳單地址。如果是沒有domain的人，可以透過Spokeo、WhitePages以及PeopleSmart來搜尋他/她的訊息。&lt;/p&gt;
+
+  &lt;p&gt;真正的技巧是在拿到信用卡號碼，不過這是藉由公司的後端系統。Phobia說他有個夥伴執行了這部分的駭客行動，不過他也向我們敘述了這技巧，讓我們可以通過技術支援服務電話時的認證。這出乎意料之外的容易——容易到Wired可以在幾分鐘之內重複利用這個漏洞兩次。&lt;/p&gt;
+
+  &lt;p&gt;首先，打電話給Amazon告訴他們你是帳號的擁有者，想要幫帳號增加一個信用卡號碼。所需要的資訊，只有帳號上的名稱、信箱以及帳單地址，之後Amazon就會讓你輸入新的信用卡號碼。（Wired用的號碼，是從用演算法生成假卡號的網站來的）輸入完畢後，掛斷電話。&lt;/p&gt;
+
+  &lt;p&gt;接下來，再一次打給Amazon，並告訴他們你無法登入你的帳號。之後提供姓名、帳單地址以及在前一通電話中新輸入的信用卡號碼，Amazon就會讓你將新的信箱加入Amazon帳號中。在這之後，連上Amazon網站，並將密碼重置信件寄到新的信箱中，這樣就可以讓你看到Amazon帳號內的所有信用卡號碼。不過並不是完整的號碼，只有末四碼。&lt;/p&gt;
+
+  &lt;p&gt;但是，就如同我們所知的，Apple也只需要那最後末四碼。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;根據Mat Honan的說法，其實整個安全漏洞很大的一部分，是在Amazon與Apple兩家公司，對於同一個資訊在安全上所持的不同看法： &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The very four digits that Amazon considers unimportant enough to display in the clear on the Web are precisely the same ones that Apple considers secure enough to perform identity verification.&lt;/p&gt;
+
+  &lt;p&gt;Amazon認為不重要，可以直接顯示在網路上的那四碼，正是Apple認為夠安全，足以驗證身份的那四碼。 &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;via &lt;a href=&quot;http://www.macrumors.com/2012/08/06/how-a-hacker-gained-access-to-a-reporters-icloud-account/&quot;&gt;How a Hacker Gained Access to a Reporter’s iCloud Account – Mac Rumors&lt;/a&gt; and [How Apple and Amazon Security Flaws Led to My Epic Hacking&lt;/td&gt;
+      &lt;td&gt;Gadget Lab&lt;/td&gt;
+      &lt;td&gt;Wired.com](http://www.wired.com/gadgetlab/2012/08/apple-amazon-mat-honan-hacking/)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 08 Aug 2012 12:02:41 +0800</pubDate>
+        <link>/post/2012/08/apple-amazon-mat-honan-hacking</link>
+        <guid isPermaLink="true">/post/2012/08/apple-amazon-mat-honan-hacking</guid>
+        
+        
+        <category>Apple</category>
+        
+        <category>Article</category>
+        
+        <category>Bug</category>
+        
+        <category>iCloud</category>
+        
+      </item>
+    
+      <item>
+        <title>[開箱] Plextor M5S 256GB SSD ＋ Mac mini SSD換裝筆記。</title>
+        <description>&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1097&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1097.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1097.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;每次一到新版OSX推出的時候，總是會想著換新Mac之類的事。就算沒換機，好歹也要清空硬碟，重新安裝一個乾淨的系統。畢竟打從OS 8.5到今天為止的經驗都告訴我一件事——千萬別相信「升級安裝」這鬼功能⋯⋯&lt;/p&gt;
+
+&lt;p&gt;總之，原本打算是趁這次Mountain Lion一出，就換台2012年的新款Mac mini。不過看來今年的Mac mini似乎要等到十月，所以至少先換個「據說裝了會變很快」的SSD吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1095&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1095.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1095.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;總之，這就是入手的SSD「Plextor M5S 256GB」。之所以選這牌子，是因為不知為何小時候家裡電腦的光碟機/燒錄機一律都是這牌子，印象中還算蠻高檔的，所以就買下去了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1097&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1097.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1097.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1099&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1099.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1099.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;除了牌子響（對某些人來說）之外，Plextor SSD的另一項賣點，就是獨自開發的韌體技術「True Speed」，可以讓SSD自動整理零碎的檔案空間，保持最佳效能。反正因為這功能似乎沒有其他SSD廠商有做，無論實際效果如何，姑且還算是個賣點就是。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1101&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1101.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1101.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;打開包裝盒之後，裡面除了一紙說明書之外，剩下的就是SSD本體了。 Plextor M5S的外觀是帶有髮絲紋表面處理的金屬殼，質感感覺比一般的髮絲紋金屬表面要來的好那麼一點點。&lt;/p&gt;
+
+&lt;p&gt;另外，由於是SSD，所以拿起來很輕，輕到讓我懷疑裡面是不是空的⋯⋯&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1104&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1104.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1104.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;背面，除了一堆標章之外，還寫著「MADE IN TAIWAN」的註記，在這年頭已經越來越少見了啊～&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1109&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1109.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1109.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;側面，除了本來就該有的標準螺孔之外，沒啥好看的。&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;安裝&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1113&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1113.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1113.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;把SSD從箱子裡拿出來之後，當然接著就是把SSD放到另一個箱子裡。而這次的箱子，就是傳說中的2010年出包版Mac mini Server。&lt;/p&gt;
+
+&lt;p&gt;從2010年開始的Mac mini，雖然已經比之前要用刮刀才能打開的便當盒要來的好拆不少，不過老實說，要拆到硬碟部分還是挺麻煩的，而且我是拆下去之後才發現⋯⋯總之以下是簡單的硬碟升級紀錄，如果想看詳細教學的人，我想還是去看iFixit比較好。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1115&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1115.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1115.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1117&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1117.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1117.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;從2010年開始的Mac mini，拆開機殻已經變得非常簡單，只要轉開黑色的底蓋就可以了。底蓋兩側也有設計原型的凹洞，讓使用者徒手就能方便轉開。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1120&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1120.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1120.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;打開之後的樣子，內構非常緊密，而且老實說真的很好看。 &lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1126&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1126.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1126.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1128&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1128.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1128.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1130&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1130.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1130.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1132&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1132.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1132.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;第一個步驟是把風扇給拆下來，除了兩側的螺絲之外，還有風扇與主機板的接線。Mac mini主機板上的許多接線都是扣壓式的，只要用針之類的東西從縫隙撬開就可以輕鬆拆下，也比較不會扯斷接線。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1134&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1134.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1134.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;拆下來的風扇，拜這種新設計的風扇之賜，Mac mini終於不會像舊款那樣吵了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1135&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1135.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1135.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1136&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1136.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1136.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;接下來是拆下風扇側邊的塑膠構件，轉下角落的螺絲之後，稍微用力一下就可以從機身內抽出來。 &lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1137&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1137.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1137.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1123&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1123.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1123.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1138&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1138.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1138.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;之後是包含Wi-Fi天線的金屬網，左右兩側各有兩顆螺絲，最邊緣的兩顆除了固定金屬網之外，同時也是固定黑色機身底蓋的零件。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1140&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1140.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1140.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在完全卸下天線之前，要先把天線與主機板的接線給移除，直接撬起來就好了。 &lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1151&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1151.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1151.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1146&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1146.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1146.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1149&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1149.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1149.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在主機板上還有一些接線，也要先拆下來。這部分的接線應該是硬碟的訊號線還有溫度感應器。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1141&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1141.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1141.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;之後再卸下固定機身與主機板的螺絲，包含右側那棵原本固定風扇用的長螺絲。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1152&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1152.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1152.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;接下來的步驟就有點奇特了。主機板上有兩個洞，找個棒子插進去，然後慢慢把主機板整個推出金屬機身外，好挪出空間把硬碟給拆出來。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1153&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1153.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1153.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;主機板與機身背後的端子面板是連在一起的，不過不用推出很多，一點點就可以了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1154&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1154.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1154.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1157&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1157.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1157.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1159&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1159.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1159.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;主機板推出來的樣子，差不多這樣就可以把硬碟拆下來了。因為這台是Server版，所以有兩顆硬碟，不過這次只要換一顆就成。 &lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1161&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1161.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1161.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1163&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1163.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1163.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1164&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1164.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1164.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Apple原廠硬碟，500GB，HITACHI製。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1168&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1168.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1168.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1176&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1176.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1176.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1178&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1178.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1178.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;硬碟的接線以及溫度感應器都是用黑色膠帶固定，硬碟上的電路板也用黑色塑膠片包覆著。硬碟的一側也有與機身固定用的螺絲。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1185&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1185.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1185.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;把原廠硬碟上的連接線、溫度感應器等零件按照原樣裝在SSD上。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1188&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1188.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1188.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;之後再把硬碟裝回去，把之前的步驟反過來做一次就完成了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1190&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1190.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1190.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1191&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1191.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1191.jpg&quot; /&gt;&lt;img alt=&quot;Plextor M5S SSD in Macmini2010 1192&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Plextor_M5S_SSD_in_Macmini2010_1192.jpg&quot; title=&quot;Plextor_M5S_SSD_in_Macmini2010_1192.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;裝回去的過程基本上不會有多大的問題，除了Wi-Fi天線的金屬網蓋，要用點力把部件的邊緣跟金屬機身咬住，才能同時讓兩邊的螺孔對齊，好把螺絲鎖進去。&lt;/p&gt;
+
+&lt;h3 id=&quot;trim&quot;&gt;打開TRIM功能&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Trim Enabler Logo kopia&quot; src=&quot;/img/2012-08-07-plextor_m5s_ssd_in_macmini2010/Trim_Enabler_Logo-kopia.png&quot; title=&quot;Trim_Enabler_Logo-kopia.png&quot; /&gt;SSD跟普通硬碟不太一樣的一點，就是支援TRIM指令集，來最佳化SSD效能並延長使用壽命。不過在OSX上，除了Apple原廠的SSD之外，其他SSD在預設狀態下TRIM功能都是關閉的。這時候就需要TRIM Enabler這個軟體，來打開TRIM功能。&lt;/p&gt;
+
+&lt;p&gt;雖然Plextor的SSD都有True Speed這個類似TRIM的功能，不過還是可以打開OSX的TRIM功能，至少⋯⋯有應該比沒有要好吧⋯⋯大概。&lt;/p&gt;
+
+&lt;h3 id=&quot;ssdmac-mini&quot;&gt;最後，SSD真的有讓Mac mini快很多嗎？&lt;/h3&gt;
+
+&lt;p&gt;在這邊就不提測試數據了，因為無論如何SSD的帳面效能都會比硬碟要來的快，&lt;/p&gt;
+
+&lt;p&gt;最重要的還是一般使用的狀況。以這台2010年的Mac mini Server，加上我自己使用後的感覺是：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;開機快很多，關機也是。&lt;/li&gt;
+  &lt;li&gt;打開程式的時候快了點。 &lt;/li&gt;
+  &lt;li&gt;需要頻繁存取大型檔案的軟體，跑起來似乎也比較快，例如Aperture。&lt;/li&gt;
+  &lt;li&gt;存檔的時候當然也比較快，例如Photoshop的大型檔案。&lt;/li&gt;
+  &lt;li&gt;解壓縮大型檔案也會快上不少。&lt;/li&gt;
+  &lt;li&gt;瀏覽網頁倒是沒啥變化，這部分主要還是卡在CPU跟網路速度吧？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;雖然硬碟可以說是目前電腦系統裡最慢的一環，不過換了SSD似乎也不會讓整體效能變得飛快，最後還是卡在運算效能吧？&lt;/p&gt;
+
+&lt;p&gt;總之，該換機了嗎⋯⋯Orz&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Aug 2012 09:03:13 +0800</pubDate>
+        <link>/post/2012/08/plextor-m5s-ssd-in-macmini2010</link>
+        <guid isPermaLink="true">/post/2012/08/plextor-m5s-ssd-in-macmini2010</guid>
+        
+        
+        <category>Article</category>
+        
+        <category>Mac mini</category>
+        
+      </item>
+    
   </channel>
 </rss>
