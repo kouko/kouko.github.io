@@ -13,7 +13,7 @@ categories:
 
 在德國慕尼黑的Apple Store，出現了一幅用來紀念Steve Jobs，由4,001張便利貼、400公尺的膠帶以及6個小時的工時完成的巨大壁畫。
 
-<iframe  height="360" src="https://www.youtube.com/embed/e-Kd6gAXmLs" frameborder="0" allowfullscreen></iframe>
+<iframe  width="100%" height="360" src="https://www.youtube.com/embed/e-Kd6gAXmLs" frameborder="0" allowfullscreen></iframe>
 
 這場大型藝術活動在上週六的下午2時開始，一直到晚上8時。最後完成的作品寬3公尺，高6公尺，用了藍色、綠色與黃色三種便利貼。
 
