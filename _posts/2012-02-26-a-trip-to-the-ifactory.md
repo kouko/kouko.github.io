@@ -1,0 +1,378 @@
+---
+id: 12911
+title: iFactory的日常 ── 「Okay、Okay、Okay」。
+date: 2012-02-26T11:01:13+00:00
+author: kouko
+excerpt: "本文原文為「A Trip to The iFactory: 'Nightline' Gets an Unprecedented Glimpse Inside Apple's Chinese Core」，作者為Bill Weir。"
+layout: post
+categories:
+  - Apple
+  - Article
+  - Foxconn
+---
+<img alt="Foxconn iphone large verge medium landscape" border="0" src="/img/2012-02-26-a-trip-to-the-ifactory/foxconn-iphone_large_verge_medium_landscape.jpg" title="foxconn-iphone_large_verge_medium_landscape.jpg" width="525" />
+
+<span style="font-size: xx-small;">photo from </span><a href="http://abcnews.go.com/International/slideshow/inside-apples-factories-china-15750239" style="font-size: xx-small;">ABC News Photo</a>
+
+> 本文原文為「A Trip to The iFactory: 'Nightline' Gets an Unprecedented Glimpse Inside Apple's Chinese Core」，作者為Bill Weir。
+
+"Okay." "Okay." "Okay."
+
+這個由機器所發出的女性聲音從未停止，每個「Okay」都宛如超現實般地宣告著又一個嶄新iPad的誕生。
+
+"Okay." "Okay." "Okay."
+
+工廠一塵不染的室內空間、明亮的螢光燈以及伴隨著催眠的節奏，數以千計的雙手伸進了輸送帶的河流，將一件件流過的小裝置一小片、一小片地組合起來。
+
+"Okay." "Okay."
+
+管理人員偶而會用著普通話喊叫，但是在這條生產線上，大部分的談話都是由機器在進行，而人類只是默默地在工作。
+
+當他們將一塊晶片裝上、擦試著螢幕，或是將裝置接上診斷機器後，聽到機器在確認沒問題後發出的「Okay」時，他們的臉上沒有任何的表情。
+
+他們將不斷地重複這些動作，並在午餐時間前聽到機器發出上千次的「Okay」。
+
+而這些，僅僅只是Foxconn的日常。
+
+
+
+### Nightline是如何進入Apple的中國工廠？
+
+鑑於這間世界上市值最高公司的保密傳統，您也許不得不懷疑：「我是如何看到這些東西的？」
+
+在幾年以前，我把[這個](http://abcnews.go.com/Nightline/video/bill-weir-pitch-to-steve-jobs-for-interview-14681930)送給了Steve Jobs，並明目張膽地從他親密的同事偷取Apple的秘密。我仍然感到愧咎，不過我也不後悔，因為我也大方地接受Jobs的回歸，並且也不掩飾我對於Apple產品的愛好。由於我希望取得更多的資料，讓我可以報導一些Apple的產品發售消一，並且每六個月邀請他們在ABC News的特別節目中，談論Apple的內部運作。不過他們總是婉拒了這些邀請。
+
+不過在最近幾個月中，人們對Steve Jobs的回憶，以及公司創記錄的營收，被Apple史上最糟的報導給破滅了。其中，大部分都涉及到Apple在中國最大的供應商，Foxconn。
+
+<img alt="Daisey long image" border="0" src="/img/2012-02-26-a-trip-to-the-ifactory/daisey___long_image.jpg" title="daisey___long_image.jpg" width="525" />
+
+<span style="font-size: xx-small;">photo from </span><a href="http://culture.wnyc.org/articles/features/2011/oct/18/steve-jobs-under-lens-public-theater/" style="font-size: xx-small;">WNYC</a>
+
+在2010年，Foxconn於香港外的工廠員工自殺事件後，Mike Daisey開始演出一場獨角戲「Steve Jobs的痛苦與狂喜（The Agony and The Ecstasy of Steve Jobs）」。他描述了前往Foxconn工廠大門，並遇到了在經過Apple生產線13～15小時輪班後下班的人們，以及一位花了一整天清理iPhone螢幕的13歲工人。
+
+Daisey的表演在今年一月被NPR的「This American Life」關注，而一位聽眾Mark Shields在感動之下，展開了一個請願活動。超過250,000位Apple產品使用者，連署要求Apple建立一個「符合倫理的」iPhone，而相關的活動也蔓延到世界各地的Apple Store。
+
+就在這個時候，Apple打了電話給我。他們想知道「Nightline」是否有興趣在FLA第一次審查的同時，參觀iPhone、iPad以及MacBook的Foxconn最終組裝生產線。我答應了，同時也立刻開始思考為何他們會將這樣的獨家新聞提供給我。其中的可能性有：
+
+  * 我過去在節目上說了很多關於他們產品的好話。
+  * ABC News是由Disney集團擁有，而Disney的CEO&nbsp;Bob Iger同時也擔任Apple董事。
+  * Steve Jobs是Disney的最大個人股東。
+  * 他們很喜歡「Nightline」這個節目。
+
+我想原因一定是最後一個，因為前三個在我的報導中絕對是無法接受的，我也確定Apple一定知道這回事。
+
+### 我想著休息&hellip;&hellip;
+
+<img alt="Abc apple 120220 wg" border="0" src="/img/2012-02-26-a-trip-to-the-ifactory/abc_apple_120220_wg.jpg" title="abc_apple_120220_wg.jpg" width="525" />
+
+<span style="font-size: xx-small;">photo from </span><a href="http://abcnews.go.com/International/slideshow/inside-apples-factories-china-15750239" style="font-size: xx-small;">ABC News Photo</a>
+
+搭著由三輛高爾夫球車組成的車隊，Apple以及Foxconn的代表們，帶領著我們參觀了六個在深圳與成都的生產線，並且隨時都有五六個人與我們一起採訪工廠與宿舍。但是除了建議我們參觀輔導中心或是餐廳之外，他們從來沒有對我們做出指示，或是打斷我們的取材。
+
+以下就是我們所看到的。大家也可以在週二的「Nightline」中親眼觀看。
+
+樸素的白色盒子在中國深圳的生產線上流動著，每個盒子上都帶有「designed in California（加州設計）」的詞句。Cupertino的天才們不得不無情，讓成千上百們中國與及台灣工人們像Liang Juan一樣，進行著不斷重複的工作。
+
+穿著從頭到腳包覆的「兔子裝」無塵衣，26歲的她已經將過去三年的時間花在用鑷子翻動小小的相機鏡頭上。
+
+「妳怎麼看待這一整天的？」我問到。
+
+> "I don't think much about other things, because the management is strict and we're busy working and have no time to think about other things."
+>
+> 「我不多去想其他事。因為管理很嚴格，我們的工作也很忙碌，沒有時間去想其他事情。」
+
+不過在成都的另一個生產線上，Zhou Xiao Ying坦承地說：
+
+許多時間，我會想到我是多麼地疲憊。每個排班大約有6,000次<sup>*1</sup>，她拿著iPad的外殼，修整著Apple標誌的輪廓。每個月一次，她花費兩小時的車程，去看她的父母以及孩子。
+
+> "I think about resting,"
+>
+> 我想著關於休息的事。
+
+是否是由於這些悲劇，讓Foxconn敞開了他們的大門？「當然。」Foxconn的決策階層敘述。
+
+多年以來，世界驚嘆於Apple各種讓人驚奇的產品線，當每次新產品發售時，商店外都會有著綿延數個街區的排隊行列。僅僅在一個世代中，這些排隊行列讓一間從車庫起家的公司，變成了世界上最有價值的企業。
+
+但是當Apple迷們在去年購買了超過1,700萬台電腦、3,800萬台iPod、4,000萬台iPad以及9,300萬台iPhone的同時，從來沒有一個人曾經從外部看過製造這些東西的生產線──直到現在。
+
+而在這樣一個驚人的告白中，曾經在Apple工作了15年的Foxconn決策階層表示，如果不是由於致命的爆炸事件與自殺，他認為Nightline大概也不可能在這裡採訪。
+
+根據前任Apple管理階層，目前為Foxconn CEO顧問的Terry Gou敘述：
+
+> "You being here is part of the openness, part of the learning, part of the change that Foxconn is undergoing. Of course you can argue that we should have opened up five years ago. Well five years ago, we are under the radar screen, nobody really knows us, we are doing well. Why should I open it up?"
+>
+> 你會在這裡，是Foxconn正在漸漸地試著開放、學習以及改變的一部分。當然，你可能會爭辯說，我們應該在五年前<sup>*2</sup>就敞開大門。不過在五年以前，我們還在雷達螢幕之外，沒有人真正認識我們，我們也做的很好，為何我們該將大門敞開呢？
+
+當我詢問著這些致命的悲劇是否讓Fxconn重新思考如何對待工人，他如此回答：
+
+> "I think absolutely, absolutely, yeah. You know, success is the mother of failure. Because we&rsquo;ve been so successful, successful in the sense that it seems everybody&rsquo;s happy. Right?"
+>
+> 「是的，當然是。你知道，成功為失敗之母。因為我們已經如此地成功，似乎已經讓所有的人都很高興，不是嗎？」
+
+我們在黑夜中降落在香港，在經過了兩小時的車程後，抵達了深圳。在三十年前，這裡是一個小漁村，但是在中國政府宣布這裡成為「經濟特區」後，現在人口已經超過了紐約市。
+
+> <p style="font-size: small;">
+>   *1　根據Apple的官方聲明：
+> </p>
+>
+> <p style="font-size: small;">
+>   &ldquo;In manufacturing parlance this is called deburring. Her line processes 3,000 units per shift, with two shifts per day for a total of 6,000. A single operator at Ms. Zhou&rsquo;s station would deburr 3,000 iPads in a shift.&rdquo;
+> </p>
+>
+> <p style="font-size: small;">
+>   「在製造業中的說法，這被稱為『deburring（去毛刺）』。她所在的生產線上，每次排班需要處理3,000件，一天兩次的排班總共為6,000件。在Zhou女士的工作站中，每位操作員每次排班將需要將3,000件iPad去除毛刺。」
+> </p>
+>
+> <p style="font-size: small;">
+>   Apple表示Zhou Xiao Ying不可能連續工作兩個輪班，因為從8AM工作到8PM，再從8PM工作到8AM，之後還接著隔天的輪班繼續工作是不可能的。Ying可能誤解了Weir關於「how many Apples do you carve each day？（妳每天要刻出多少個蘋果？）」的問題。
+> </p>
+>
+> <p style="font-size: small;">
+>   &nbsp;
+> </p>
+>
+> <p style="font-size: small;">
+>   *2　根據FLA總裁與CEO，Auret van Heerden的說法：
+> </p>
+>
+> <p style="font-size: small;">
+>   &ldquo;The discussions began in April 2007 but stalled in March 2008. We then resumed them in April 2009 and decided to do a small pilot survey so that Apple could get an idea of how our tools might add value to their program. That pilot led to a second activity that I believe contributed to the decision to join the FLA at the end of 2011. I, of course, cannot speak for Apple but I do believe that the decision to join was probably taken some months before (and therefore well before) the New York Times articles.&rdquo;
+> </p>
+>
+> <p style="font-size: small;">
+>   相關的討論開始於2007年四月，不過在2008年三月開始停滯。我們在2009年四月重新展開談話，並決定做一些小規模的前期調查，讓Apple可以知道我們的工具可以為他們的方案增添更多的價值。
+> </p>
+>
+> <p style="font-size: small;">
+>   前期調查之後，也開始了第二次的活動，我相信這也有助於讓他們在2011年底決定加入FLA。
+> </p>
+>
+> <p style="font-size: small;">
+>   當然，我無法為Apple發言，不過我相信他們早在New York Times的報導刊出之前，就已經花費數個月決定是否要加入FLA。
+> </p>
+
+### 每個地方看到的&hellip;&hellip;都是自殺網
+
+<img alt="Foxconn suiside net" border="0" src="/img/2012-02-26-a-trip-to-the-ifactory/Foxconn-suiside-net.jpg" title="Foxconn-suiside-net.jpg" width="525" />
+
+<span style="font-size: xx-small;">photo from </span><a href="http://www.redflagmagazine.org/2011/11/suicide-and-demand/" style="font-size: xx-small;">RedFlagMagazine</a>
+
+在深圳的中心是Foxconn城，我們在此迎接了黎明。而在第一道曙光到來的同時，也展現出了這地方讓人驚訝的規模。
+
+作為中國最大的出口商，比Foxconn的雇員還多的只有中國政府，而Foxconn的利潤，比該公司其他十個競爭對手的總和還要多。Apple也許是他們最知名的客戶，不過Foxconn還承接為Sony、Dell、HP、IBM、Motorola、Toshiba以及其他主要品牌的產品製造，並且將每個生產線的細節完全地保密。
+
+為了製造諸如Xbox、PlayStation與Amazon Kindle等電子產品，這個園區雇用了235,000個員工，大約為佛羅里達州Orlando的總人口。
+
+而在每個工廠以及宿舍、每個樓梯間與中庭，到處都可以看到自殺網。
+
+這些自殺網，是在2010年春天，接連有九名Foxconn員工跳樓自殺的三個月間被架起。總共有18個Foxconn員工試著結束，或是結束了他們自己的生命。在近年來，鑑於Foxconn龐大的規模，其員工的自殺率是低於中國的平均值的。但是當人們開始接連地跳樓，Woo告訴我，Tim Cook招集了一個由心理學專家組成的顧問小組。他們建議架起網子，以便有機會能夠拯救衝動性的跳樓者。
+
+Foxconn也在同時開設了輔導中心，而當我採訪時，有幾個人在候診區內。一位輔導員告訴我，這些天來他們大多是在處理遺失證件，而不是應付憂鬱症。
+
+「那麼，為何會發生那樣恐怖的事？」我問著。
+
+她說：
+
+> "There are many reasons. We had many scholars here doing research. Of course some (suicide) has to do with the management. But they had more to do with the new generation of migrant workers from the rural areas, their state of mind and how they cope with society. Also it&rsquo;s hard to make friends here."
+>
+> 「有很多原因，我們有許多學者在這裡進行研究。當然部分（自殺）已經從管理面進行了改善，不過更多部分是關於從農村來的新一代農工們的心態，以及他們如何適應社會。同時，這裡也很難交上朋友。」
+
+之後，爆炸發生了。在去年，分別於兩個iPad工廠中，由於在iPad拋光過程中的可燃粉塵爆炸，造成了77個人受傷，以及4個人死亡。
+
+根據Woo的敘述：
+
+> "A certain level of the aluminum dust was too high and this accident happened. We learned a lot from it, so we have changed a lot of processes. So now if you have a chance to go back and see it, you would not see any human being at all. We replaced the enclosure part with robots."
+>
+> 「當鋁粉塵的量過高，這樣的意外就發生了。我們從其中學到了很多事，讓我們可以改善許多的流程。現在如果你有機會可以回去看看，你不會看到任何人在那邊。我們已經用機器人取而代之，來處理機殼零件。」
+
+### Apple處理供應鏈工廠的工作環境
+
+<img alt="Tim cook is screwed" border="0" src="/img/2012-02-26-a-trip-to-the-ifactory/tim-cook-is-screwed.jpg" title="tim-cook-is-screwed.jpg" width="525" />
+
+Apple的問題並非只有Foxconn。根據Apple的說法，在137名員工受傷後，他們已經制止了名為Wintek的供應商使用有毒化學品來清理iPhone的螢幕。
+
+而無論是中國國內或是國外的勞工權利團體，在Apple龐大供應鏈中的許多工廠涉嫌強迫超時工作、忽視健康與安全問題以及偶而使用未成年勞工的同時，也已開始譴責Apple。
+
+Steve Jobs以及新任CEO Tim Cook長久以來都堅稱，在業界中Apple在改善工人生活的方面，已經做的比其他同業要來的多上了很多。公司也表示，已有超過100萬名工人被告知他們應有的權利，60,000人已享有免費的大專水平教育，並且公司也強迫供應商將超過600萬的違法費用退還給工人。
+
+根據Tim Cook上週向Goldman投資者與分析師的說明：
+
+> "We think the use of underage labor is abhorrent. It&rsquo;s extremely rare in our supply chain, but our top priority is to eliminate it totally. If we find a supplier that intentionally hires underage labor, it&rsquo;s a firing offense. We don&rsquo;t let anyone cut corners on safety. If there&rsquo;s a production process that can be made safer, we seek out the foremost authorities in the world &mdash; the foremost experts &mdash; and cut in a new standard, and then take that and apply it to the entire supply chain."
+>
+> 「我們認為，雇用未成年人勞工是種可惡的情形。這在我們的供應鏈中非常地罕見，但是我們的首要任務是將此情形完全根絕。如果我們發現供應商涉嫌雇用未成年勞工，就算是重大的違規。
+>
+> 我們不會讓任何人在安全方面有所疏忽，如果說有可以讓生產流程更安全的方法，我們尋找世界上最具權威性的專家，並且制定了新的標準，並且將這個標準應用整個供應鏈中。」
+
+Apple表示，從2006年以來，他們已開始持續審查公司的供應商，並於2007年開始公布有時會讓人感到不安的結果。在去年229件的審查後，Apple發佈在超過90間工廠中，至少有一半以上的工人每週工作時間超過60小時，或是一週工作超過六天的限制。
+
+去年，Apple宣稱他們檢查了全球超過400間設施，但是只有11間供應商被中止合約。相比於直接開除供應商來說，由Apple來向供應商施壓，改善工人生活是比較容易的方式。不過部分激進的團體則表示，Apple可以藉由公布違反規定的特定供應商名稱與位置，讓整體狀況能更加快速地改善。
+
+在過去，這是Apple所反對的方式。部分勞工權利團體也同意在某些文化中，公布違規廠商的名稱只會讓業主試著掩蓋違規情形，而不是與客戶共同合作，並解決問題。
+
+### 誠實的意見？
+
+<img alt="Foxconn Worker" border="0" src="/img/2012-02-26-a-trip-to-the-ifactory/Foxconn_Worker.jpg" title="Foxconn_Worker.jpg" width="525" />
+
+<span style="font-size: xx-small;">photo from </span><a href="http://www.cultofmac.com/148286/apple-foxconn-fla-respond-to-abcs-nightline-report-with-some-minor-corrections/" style="font-size: xx-small;">Cult of Mac</a>
+
+數十名年輕男女們被帶到昏暗的房間，有些人每個工作天花費10小時來生產iPad，而這也許也是許多人第一次，真的能實際使用iPad。
+
+FLA（公平勞動協會）正使用著Apple銷售速度最快的裝置，來進行他們宣稱是業界中最大規模的審查工作。35,000位Foxconn員工將得到一份匿名的觸控式螢幕問卷，而答案將立刻上傳到紐西蘭的伺服器，讓監察團體可以了解最常見的抱怨。但是一想到從到了這裡開始，從工人們身上看到他們堅忍的表情，以及對問題的簡潔回應，我不禁懷疑，他們到底能夠多誠實地回答呢？
+
+負責監察的Ines Kaempfer敘述：
+
+> "Some of them certainly do say what the boss wants them to say, but the great thing about this survey is that we have such a big sample that you really always have workers who say what they're really thinking. Rather than the more traditional survey, where you ask 15 workers, you ask them face to face; they don't dare to say anything. And here, many of them feel quite protected. Because it's a big group, there's no way their boss can know what they were saying."
+>
+> 「他們其中有些人肯定只會說他們的老闆要他說的話，但是在這次的調查中，最好的部份是我們有著大量的取樣，其中總是會包含著他們的真實想法。在傳統的調查中，面對面地詢問15個工人，他們不會敢說任何的事情。
+>
+> 而現在，他們許多人覺得受到保護，因為這是一個非常大的團體，他們的老闆不可能會知道他們說了些什麼。」
+
+上個月，Apple成為第一間加入FLA的電子公司。該團體成立於1999年，由企業以及主要大學資助。這些大學不希望在校園書店中販售的T恤來自血汗工廠。批評FLA的人士指出，FLA與諸如Nike與Adidas等企業之間的關係，造成了利益衝突的問題。
+
+Apple將支付FLA「高達六位數」的費用以審查Foxconn。此外，Apple也已經向FLA捐助了$250,000美金。
+
+不過FLA總裁Auret van Heerden則堅持，與企業的合作是與工廠接觸不可或缺的。而企業成員並不會影響視察。而當Apple/Foxcnn的審查在三月初發表後，所有被掩蓋的事實將會非常明顯、並痛苦地顯露出來。
+
+> "That's very big news, because Apple is the first tech company to join the FLA, it's the biggest and probably most dynamic of the tech companies. So it gives us a chance to set the bar for the entire sector."
+>
+> 「這消息非常重大，因為Apple是第一間加入FLA的科技公司。Apple是最大的，也許也是所有科技公司中最有活力的。因此，這也給了我們一個機會，來為整個產業設立一個標竿。」
+
+### 我預期他們會為我們演出一場戲
+
+<img alt="fla_Auret-van-Heerden.jpeg" border="0" src="/img/2012-02-26-a-trip-to-the-ifactory/fla_Auret-van-Heerden.jpeg" title="fla_Auret-van-Heerden.jpeg" width="525" />
+
+<span style="font-size: xx-small;">photo from </span><a href="http://www.vancouversun.com/story_print.html?id=6162817&sponsor=" style="font-size: xx-small;">vancouversun.com</a>
+
+當Auret van Heerden的團隊花費大部分的時間在研究員工記錄以及出勤卡時，我與他第一次走進了MacBook的生產線。他指出，生產的節奏比他過去看到的要來的慢的多。
+
+事實上，當van Heerden告訴Reuters Foxconn工廠是「一流的」並且訝異於「比起成衣工廠還要來的更加寧靜」時，Apple與FLA的批評者們也曾經大力地對此攻擊。
+
+在我們走過裝著MacBook零件的箱子時，他說有某些東西非常地相似。
+
+> "In the garment factories, you see a very different work ethic, people are really pushing this stuff up, because they're paid for their own individual effort, not by group effort."
+>
+> 「在成衣工廠，你會看到非常不同的工作倫理。人們是真的在試著把東西越做越好，因為他們是由於個人的努力，而不是集體的努力被支付薪水。」
+
+當第一次接到Apple的電話時，我以為這次的審查會包含突擊檢查。但是Foxconn已經在幾天前就知道我們會狼訪，實際上也幫我們得到中國簽證。他怎麼可能確定這些效率大師們，沒有在週末打造出一條假的組裝線呢？
+
+van Heerden說道：
+
+> That's normal with every factory you go to, even if it's just the time that it takes you to get from the gate to the factory floor, there's always fifteen or twenty minutes of protocol to get in there. The special equipment comes out, they put the ear plugs in, they put the masks on, and they can transform a factory in twenty minutes, so we expect that.
+>
+> But our method is such &mdash; the bottom-up method &mdash; that over the next couple of days, everything will surface.&nbsp;As we talk to people, discussing how they do their jobs, the dysfunctionality starts to come up.
+>
+> 「我預期他們會為我們演出一場戲，當你去每一間工廠時，這是很普通的事。即使是他們將你從工場大門帶到工廠內的時間，大多是十五或是二十分鐘，專用的設備馬上就位、工人們也戴上了耳塞、口罩。他們可以在二十分鐘內改變一間工廠，所以我們預期也是如此。
+>
+> 但是我們的方法是這樣 ── 從下而上。在之後的幾天裡，所有的事情都會浮現。當我們與人們談話，討論他們是如何做著他們的工作時，混亂的狀態就開始出現了。」
+
+「當你第一次與Apple接觸時，Apple是否抗拒這個主意呢？」我問著。
+
+「我們已經為此溝通了大約有五年的時間。」van Heerden笑著回答。
+
+Apple在1月13日加入了FLA，恰好是在New York Time對Apple的勞工問題進行一系列報導的8天前。
+
+審查監督員Ines Kaempfer表示：
+
+> "We call it the 'Nike moment' in the industry,&nbsp;There was a moment for Nike in the '90s, when they got a lot of publicity, negative publicity. And they weren't the worst. It's probably like Apple. They're not necessarily the worst, it's just that the publicity is starting to build up. And there was just this moment when they just started to do something about it. And I think that's what happened for Apple.
+>
+> Compared With Other Factories, It's Quite Good Here"
+>
+> 「我們在產業中稱之為『Nike moment』。對於Nike來說，在90年代曾經有著一樣的時刻，當時他們受到許多負面的宣傳，而他們還不是最糟的。這樣的情況也許也跟Apple類似。他們未必是最糟糕的，只是大眾已經開始抨擊他們。而現在，他們正要開始對此做出行動，我想這就是Apple目前的情況。」
+
+### 與其他工廠相比，這裡已經算是相當好了
+
+<img alt="Webfoxconn jpg 1377681cl 8" border="0" src="/img/2012-02-26-a-trip-to-the-ifactory/webfoxconn_jpg_1377681cl-8.jpg" title="webfoxconn_jpg_1377681cl-8.jpg" width="525" />
+
+<span style="font-size: xx-small;">Photo from </span><a href="http://www.theglobeandmail.com/report-on-business/commentary/chrystia-freeland/democracys-technology-feeds-china-repression/article2347945/" style="font-size: xx-small;">The Globe and Mail</a>
+
+當3,000位應徵者湧入Foxconn大門時，首先是警察的口哨聲，接著就是越來越多的人擠入工廠內。
+
+這是在中國節日後的星期一，由於許多工作過度的移居者只會待在家裡，許多在日出前就起床的人都知道，這樣做能夠有更大的機會得到組裝線上的工作。在十三億人口的國家，就業機會非常少，於是找到工作成了第一目標。特別是對於那些有家人在村莊裡的人來說，大部分的薪水都會被送回村裡去。
+
+從16歲（省級的法定工作年齡）到20出頭的年輕男女們，當他們終於排到隊伍前時，每個人都會被要求將他們的身分證掃過電子掃描器。由於Foxconn當天需要雇用幾千名員工，大多數的人只要聽到一聲響音，就可以通過了。那些拿著假身分證的人，只能默默地轉身離去。
+
+如同軍隊般精準的流程，招聘中心外頭的電子布告欄告訴們所期待的事：起薪約$285美金一個月，或是時薪$1.78。甚至是在最高每個月加班80小時的條件下，中國政府考慮到他們太過於貧窮，而撤除了所有的工資稅<sup>*3</sup>。
+
+如果他們想與其他七個人共租宿舍，將會從薪水中扣除$17.5。而在廣大的Foxconn餐廳中，包含肉、蔬菜與米飯的一餐大約要$0.8。在培訓期結束後，新員工最短可以在三天登上iPhone生產線，靜靜地組裝著價值為他三個月薪水的小裝置。
+
+「我聽說這裡的工作很辛苦」一位十七歲，留著與Justin Beiber一樣髮型的應徵者敘述。
+
+「但是我聽說他們才剛剛漲了薪水。」另一位應徵者說著。
+
+在2月1日，Foxconn開始支付比深圳規定的最低工資還要高的薪水，大約是時薪$0.25。
+
+在經過三天在兩個城市後，Nightline與數十位Foxconn員工進行了對話，包含在工廠園區內或是園區外，以及在錄影或是無記錄的狀態下。我們這些拿著相機的奇怪美國人，被鼓勵在任何時間、進入任何一間宿舍，來盡可能地獲得內部的情況。而在這同時，我不斷地想像如果中國的電視攝影團隊闖入我的家裡或是辦公室，並開始問我是如何喜歡我的工作時，我會做出怎樣的反應。
+
+但是，當我們已經看過如此多的未成年以及殘疾勞工們，但是我們大多都發現，這些人們面對的是壓迫著精神、徹底乏味並極度疲勞的日子。有些人抱怨著工作過度、有些人則抱怨著工作過少，不過幾乎所有人都說他們的薪水太低。而當我問著「你會如何改變這些？」時，我們聽到的是在任何工廠中都能聽到的抱怨。
+
+根據26歲，已經生產印表機墨水夾約一年的Zhang Ruohua敘述：
+
+> "Compared with other factories, it's quite good here, because the benefits are good. And because a lot of things happened in the past, it's been improved a lot.&nbsp;But the dorm conditions are not that good. The rooms are crowed and we don't have much space to hang our clothes, and the shower rooms are small. And there is not much overtime. Many people come and go because there is not much overtime."
+>
+> 「與其他工廠相比，這裡相當地不錯，因為福利很好。而由於過去發生了很多事情，讓這裡也改善了許多。但是宿舍的條件並不是很好，房間很擁擠，我們沒有多少空間可以晒衣服，浴室也很小。另外，這裡也沒有很多班可以加，許多人來了又走也是因為這裡的加班量並不多。」
+
+這就是典型的抱怨嗎？是Mike Daisey錯了，亦或是Foxconn在他來到這邊之前，就已經改善了一切？由於Foxconn有超過一百萬名員工，這也許很難說。而這種方式的限制，僅僅是許多中國勞工團體，例如SACOM（Students and Scholars Against Corporate Misbehavior，大學師生監察無良企業行動）認為Apple自行審查方式大部分都是無用的。
+
+SACOM的Debby Chan表示，Apple長期的內部審查證明，公司長久以來已經知道問題在哪邊。他說，Apple只是一直拒絕去修正。
+
+> "There must be a genuine trade union at Apple suppliers so the workers can have a voice for themselves."
+>
+> 「在Apple供應商中必須有真正的工會，才能讓工人們可以為自己發聲。」
+
+在報導中國的工會組織者們往往會被解雇、逮捕或是被毆打後，我詢問Foxconn管理層的Louis Woo，如果iPhone生產線工人決定組織工會時，會發生什麼事？
+
+> "We do have labor unions at Foxconn, but it's not a freely elected labor union yet. I expect to see that in the next year or two, they will become more like a collective bargaining union, and they will be freely elected. In fact I see that some legislations in more progressive provinces would require labor unions to be sitting on the board of companies. So I do see hope of labor unions becoming more powerful but it's not here yet."
+>
+> 「在Foxconn裡，我們的確有工會。但是這還不是自由選舉出來的工會組織。我期望在接下來一兩年內看到這樣，他們會變得更像是集體談判的工會，並且會由選舉選出。
+>
+> 事實上，我看到許多積極的省份已經開始立法，要求工會必須有董事會席位。我的確已經看到了工會組織變得更加強大的可能性，不過目前還沒有在這裡實現。」
+
+> <p style="font-size: small;">
+>   *3　根據Foxconn的聲明：
+> </p>
+>
+> <p style="font-size: small;">
+>   &ldquo;We have over 75 percent of the employees in the category of earning at least 2,200 RMB ($349/month) basic compensation standard. That means they are earning 13.75 RMB ($2.18) per hour. If they work overtime on the weekend, they will earn 27 RMB ($4.28) per hour. In order to reach 3500 to be taxable, they will have to work 47 OT hours to reach 3,500.&rdquo;
+> </p>
+>
+> <p style="font-size: small;">
+>   我們有超過75%的員工收入，至少有每個月2,200元人民幣（US$349）以上的基本標準薪資。這表示他們每小時的工資為13.75元人民幣（US$2.18），如果他們在週末加班，將會獲得每小時27元人民幣（$4.28）的工資。為了到達最低徵稅標準的3,500元人民幣收入，他們將需要加班工作47小時才能達到這個數字。
+> </p>
+>
+> <p style="font-size: small;">
+>   &ldquo;If the overtime hours are in weekdays, they have to work around 63 hours per month to reach that level of salary to be taxable.&rdquo;
+> </p>
+>
+> <p style="font-size: small;">
+>   如果加班時間是在週末，他們必須每個月加班63小時，才能達到徵稅的收入標準。
+> </p>
+>
+> <p style="font-size: small;">
+>   &ldquo;Your statement is only true when applying to the entry-level workers while over 75 percent are already over the probation and earning more than 2,200 RMB basic salary.&rdquo;
+> </p>
+>
+> <p style="font-size: small;">
+>   你們的聲明僅適用於剛雇用的新手工人，而超過75%的工人已經過了試用期，並且基本薪資也高於2,200元人民幣。
+> </p>
+
+### 請小心使用
+
+<img alt="Abc weir tk 120220 wg" border="0" src="/img/2012-02-26-a-trip-to-the-ifactory/abc_weir_tk_120220_wg.jpg" title="abc_weir_tk_120220_wg.jpg" width="525" />
+
+此時，Zhou Xiao Ying正在切割著另一台iPad機殼的蘋果標誌，而他心中則想著她的兩個兒子，並懷疑著她是否能負擔得起讓兒子們能與他住在同一個城市裡。
+
+我拿出我自己的iPad，向他展示一些我的孩子，以及美國的相片。當他摸著螢幕，用手指掃過一張張的相片時，她的眼睛亮了起來。在這之前，她從來沒有那麼靠近過一台可以使用的iPad過。
+
+「在美國所有的人都會買一台這個，你想要讓他們知道哪些關於妳的事？」我問道。
+
+> "I want them to know me, I want them to know we put a lot of effort in this product so when they use this please use it with care."
+>
+> 「我想讓他們知道我。我想讓他們知道，我們為了這個產品付出了很多心力，所以當他們拿著的時候，請小心地使用。」
+
+然後，她回去繼續工作。
+
+"Okay." "Okay." "Okay."
+
+<!--more-->
+
+via&nbsp;[A Trip to The iFactory/ 'Nightline' Gets an Unprecedented Glimpse Inside Apple's Chinese Cor](http://abcnews.go.com/International/trip-ifactory-nightline-unprecedented-glimpse-inside-apples-chinese/story?id=15748745&page=5#.T0mD4VEiD4N) and&nbsp;[Foxconn, Apple, and the Fair Labor Association Respond to ABC News&rsquo; Exclusive Report &#8211; ABC News](http://abcnews.go.com/blogs/technology/2012/02/foxconn-apple-and-the-fair-labor-association-respond-to-abc-news-exclusive-report/)

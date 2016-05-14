@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<!--Post-->
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+
+  <!--Post Title & featured image-->
+  {% include featured-image.html %}
+
+
+  <!--Post content-->
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>
+
+
+<!--Prev & Next Post-->
+<aside class="post-navigater">
+    {% if page.previous %}
+        <a class="post-navigater-prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    {% endif %}
+
+
+    {% if page.next %}
+        <a class="post-navigater-next" href="{{ page.next.url }}">{{ page.next.title }}</a>
+    {% endif %}
+</aside>
