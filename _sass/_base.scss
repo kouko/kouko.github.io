@@ -120,14 +120,22 @@ li {
 a {
     color: $brand-color;
     text-decoration: none;
+    background-image: linear-gradient(to right, rgba(0,0,0,0) 50%, $brand-color 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .2s;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        // color: darken($brand-color, 15%);
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $text-color-reverse;
+        background-position: -100% 0;
+        padding: 0 0.3em;
+        border-radius: 4px;
+
+
     }
 }
 

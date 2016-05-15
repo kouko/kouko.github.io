@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "SourceHanSans","HiraginoSans","PingFang TC Light","Yu Gothic","Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "SourceHanSans","HiraginoSans","PingFang TC","Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 300;
 $header-font-weight: 200;
@@ -17,10 +17,10 @@ $header-line-height: 1.4;
 
 $spacing-unit:     32px;
 
-$text-color:       #111;
+$text-color:       #333;
 $text-color-reverse: #fff;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #101;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
