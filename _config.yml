@@ -9,7 +9,7 @@
 title: "白蘋果急救室 2.0"
 email: kouko.d@gmail.com
 description: "這個部落格原本是專門收集Apple相關資訊的網站，不過現在變成作者隨便想寫啥就寫啥的地方。
-  主要內容應該還是會包含一點點的水果成分，以及敗家記錄與工作相關（UI/UX/Design）的筆記。"
+  主要內容應該還是會包含一點點的水果成分，敗家記錄以及與工作相關（UI/UX/Design）的筆記。"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: kouko_d
@@ -17,11 +17,11 @@ github_username:  kouko
 
 # Pagenation
 paginate: 12
-paginate_path: /post/page:num  # Setting Post Pagenation URL
+paginate_path: /page/page:num  # Setting Post Pagenation URL
 
 # Build settings
 markdown: kramdown
-permalink: /post/:year/:month/:slug # Setting Post URL
+permalink: /:year/:month/:slug # Setting Post URL
 
 # Custom settings
 encoding: utf-8
@@ -31,7 +31,7 @@ jekyll-archives:
   enabled: [categories]
   layout: 'archive'
   permalinks:
-    category: '/post/category/:name/'
+    category: '/category/:name/'
 
 
 # Gems
