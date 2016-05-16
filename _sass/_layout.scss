@@ -304,6 +304,10 @@
     }
 }
 
+.post-comment {
+  @extend %wrapper;
+}
+
 .post-navigater {
     @extend %wrapper;
     display: flex;
