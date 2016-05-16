@@ -21,7 +21,7 @@ paginate_path: /page/page:num  # Setting Post Pagenation URL
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:month/:slug # Setting Post URL
+permalink: /:year/:month/:day/:slug # Setting Post URL
 
 # Custom settings
 encoding: utf-8
